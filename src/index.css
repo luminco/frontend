@@ -12,7 +12,7 @@
   --green-light: rgba(45, 106, 79, 0.08);
   --bg: #f5f5f5;
   --white: #ffffff;
-  --text: #1a1a1a;
+  --text: #0a0a0a;
   --text-muted: #6b7280;
   --border: #e5e7eb;
   --shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
@@ -40,18 +40,19 @@ body {
   z-index: 9999;
 }
 
-.header a {
+.header .nav-link {
   color: var(--text);
 }
 
 .logo {
   font-size: 2rem;
-  font-weight: 700;
-  font-family: Quattrocento, serif;
-  font-style: italic;
+  font-weight: 600;
+  font-family: 'Lora', Georgia, serif;
+  font-style: normal;
   color: var(--green);
   display: flex;
   align-items: center;
+  letter-spacing: 0.01em;
 }
 
 .menu-close {
@@ -172,21 +173,18 @@ body {
 
 /* ─── HERO / CONTAINER ─── */
 .container {
+  min-height: 100vh;
+  background-color: var(--bg);
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 100vh;
-  padding-top: 72px; /* offset for fixed header */
-  padding-bottom: 72px; /* balance vertical centering */
-  background-color: var(--bg);
 }
 
 .container-content {
-  margin-left: 200px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 2rem;
 }
 
 .right-section {
@@ -195,20 +193,7 @@ body {
   align-items: center;
   text-align: center;
   gap: 1.6rem;
-  max-width: 720px;
   width: 100%;
-  padding: 2rem 1.5rem;
-}
-
-.left-section {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-}
-
-.left-section img {
-  max-width: 100%;
-  border-radius: 20px;
 }
 
 .title {
@@ -714,8 +699,8 @@ footer {
 .logo-footer {
   font-size: 3.5rem;
   color: var(--green);
-  font-family: Quattrocento, serif;
-  font-style: italic;
+  font-family: playfair display, serif;
+  font-style: normal ;
   font-weight: 700;
   margin: 0;
 }
@@ -765,7 +750,14 @@ footer .social-media-link:hover {
   background-color: var(--green-dark);
   border: none;
 }
+.main-container{
 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
 .mail {
   color: var(--green);
   text-decoration: underline;
@@ -1222,10 +1214,10 @@ button:hover {
   }
   .container {
     min-height: auto;
-    padding: 90px 1.5rem 3rem;
+    padding: 90px 0 4rem;
   }
-  .right-section {
-    padding: 2rem 1rem 3rem;
+  .container-content {
+    padding: 0 1.25rem;
   }
   .title {
     font-size: 3.2rem;
@@ -1623,9 +1615,17 @@ button:hover {
       "card"
       "contents";
     padding: 0 1.5rem 3rem;
-    gap: 1.5rem 0;
+    gap: 0;
   }
-  .cp-card-col { position: static; padding-top: 0; }
+  .cp-info { padding-bottom: 0; }
+  .cp-card-col {
+    position: static;
+    padding-top: 0;
+    margin-top: 2rem;    /* gap between feature cards and purchase card */
+  }
+  .cp-contents {
+    margin-top: 4rem;    /* gap between purchase card and Course Contents */
+  }
   .cp-title { font-size: 2.2rem; }
   .cp-breadcrumb { padding: 1rem 1.5rem 0.5rem; }
 }

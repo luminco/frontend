@@ -1,8 +1,8 @@
 /* helper so every topic gets a consistent subTopic entry */
-const sub = (name, isFree = false, lastUpdated = "3rd July 2024") => ({
+const sub = (name, isFree = false, lastUpdated = "3rd July 2024", videoLink = "#", textLink = "#") => ({
   name,
-  videoLink: "#",
-  textLink: "#",
+  videoLink,
+  textLink,
   isFree,
   lastUpdated,
 });
@@ -46,7 +46,7 @@ const courses = [
         lastUpdated: "6th July 2024",
         language: "English with conversational Hindi",
         accessibleTill: "31st August, 2024",
-        img: require("./Assets/case.jpg"),
+        img: "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=400&h=250&fit=crop",
         authorBio:
           "We provide top quality semester preparation content specially designed for law students. This course contains concise notes, case summaries, video lectures, and solved PYQs.",
         contents: [
@@ -106,7 +106,7 @@ const courses = [
         lastUpdated: "10th July 2024",
         language: "English with conversational Hindi",
         accessibleTill: "31st August, 2024",
-        img: require("./Assets/notes1.jpg"),
+        img: "https://images.unsplash.com/photo-1536640712-4d4c36ff0e4e?w=400&h=250&fit=crop",
         authorBio:
           "We provide top quality semester preparation content specially designed for law students. This course covers Hindu personal law, succession, and family law with concise notes and solved PYQs.",
         contents: [
@@ -133,7 +133,7 @@ const courses = [
         lastUpdated: "12th July 2024",
         language: "English with conversational Hindi",
         accessibleTill: "31st August, 2024",
-        img: require("./Assets/case.jpg"),
+        img: "https://images.unsplash.com/photo-1453945619913-79ec89a82c51?w=400&h=250&fit=crop",
         authorBio:
           "We provide top quality semester preparation content specially designed for law students. This course covers IPC offences with concise notes, case summaries, video lectures, and solved PYQs.",
         contents: [
@@ -159,7 +159,7 @@ const courses = [
         lastUpdated: "8th July 2024",
         language: "English with conversational Hindi",
         accessibleTill: "31st August, 2024",
-        img: require("./Assets/notes2.jpg"),
+        img: "https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=400&h=250&fit=crop",
         authorBio:
           "We provide top quality semester preparation content specially designed for law students. This course covers the Transfer of Property Act in detail with exam-focused notes and solved PYQs.",
         contents: [
@@ -185,7 +185,7 @@ const courses = [
         lastUpdated: "5th July 2024",
         language: "English with conversational Hindi",
         accessibleTill: "31st August, 2024",
-        img: require("./Assets/exam.jpg"),
+        img: "https://images.unsplash.com/photo-1526470498-9ae73c665de8?w=400&h=250&fit=crop",
         authorBio:
           "We provide top quality semester preparation content specially designed for law students. This course covers international law with a focus on DU LLB exam patterns and current developments.",
         contents: [
@@ -220,7 +220,7 @@ const courses = [
         lastUpdated: "14th July 2024",
         language: "English with conversational Hindi",
         accessibleTill: "31st August, 2024",
-        img: require("./Assets/case.jpg"),
+        img: "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=400&h=250&fit=crop",
         authorBio:
           "We provide top quality semester preparation content specially designed for law students. This course covers Fundamental Rights, DPSPs and constitutional amendments with exam-ready notes and solved PYQs.",
         contents: [
@@ -247,7 +247,7 @@ const courses = [
         lastUpdated: "10th July 2024",
         language: "English with conversational Hindi",
         accessibleTill: "31st August, 2024",
-        img: require("./Assets/notes1.jpg"),
+        img: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=400&h=250&fit=crop",
         authorBio:
           "We provide top quality semester preparation content specially designed for law students. This course covers administrative law doctrines, writs and judicial review with concise notes and solved PYQs.",
         contents: [
@@ -273,7 +273,7 @@ const courses = [
         lastUpdated: "9th July 2024",
         language: "English with conversational Hindi",
         accessibleTill: "31st August, 2024",
-        img: require("./Assets/notes2.jpg"),
+        img: "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=400&h=250&fit=crop",
         authorBio:
           "We provide top quality semester preparation content specially designed for law students. This course simplifies industrial legislation for DU LLB students with focused video lectures and notes.",
         contents: [
@@ -324,7 +324,7 @@ const courses = [
         lastUpdated: "13th July 2024",
         language: "English with conversational Hindi",
         accessibleTill: "31st August, 2024",
-        img: require("./Assets/video.jpg"),
+        img: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=400&h=250&fit=crop",
         authorBio:
           "We provide top quality semester preparation content specially designed for law students. This course covers Competition Act 2002 including the 2023 amendments with case-based study material.",
         contents: [
@@ -349,7 +349,7 @@ const courses = [
         lastUpdated: "7th July 2024",
         language: "English with conversational Hindi",
         accessibleTill: "31st August, 2024",
-        img: require("./Assets/Images/course-card-bg.png"),
+        img: "https://images.unsplash.com/photo-1485217988980-11786ced9454?w=400&h=250&fit=crop",
         authorBio:
           "We provide top quality semester preparation content specially designed for law students. This course covers Copyright and Trademark law with detailed notes, case summaries and solved PYQs.",
         contents: [
@@ -378,25 +378,291 @@ const courses = [
       {
         id: "lb601",
         courseName: "Advocacy Professional Ethics and Accountancy of Lawyers (LB-601)",
-        instructor: "Ravi Shankar Pandey",
+        instructor: "Garima Garg",
         price: "299",
-        lastUpdated: "15th July 2024",
+        lastUpdated: "14th May, 2026",
         language: "English with conversational Hindi",
-        accessibleTill: "31st August, 2024",
-        img: require("./Assets/case.jpg"),
+        accessibleTill: "30th September 2026",
+        img: "https://images.unsplash.com/photo-1607705703571-c5a8695f18f6?w=400&h=250&fit=crop",
         authorBio:
-          "We provide top quality semester preparation content specially designed for law students. This course covers advocacy, professional ethics and accounting for lawyers with practical examples and solved PYQs.",
+          "Hello, future legal legends! I'm Garima, your enthusiastic guide through the wild world of law, where the gavel meets the giggles. With a passion for justice and a knack for making the mundane magnificent, I promise to make our legal journey as entertaining as it is educational. Let's kick things off with my background. I earned my LLB Honors from GGSIPU. I then polished my legal prowess with an LLM in Constitutional Law where I scored an impressive 80%, because why not aim for an A+ in awesomeness? My research and conference presentations have been so riveting, they’ve even won best paper awards. Who knew the law could be so award-winningly fun?",
         contents: [
-          { topicName: "Bar Council of India – Constitution, Functions and Powers [Free Preview]", subTopics: [sub("Bar Council of India – Constitution, Functions and Powers", true, "1st July 2024")] },
-          { topicName: "Advocates Act, 1961 – Enrollment, Rights and Duties", subTopics: [sub("Advocates Act, 1961 – Enrollment, Rights and Duties", false, "2nd July 2024")] },
-          { topicName: "Standards of Professional Conduct and Etiquette (BCI Rules)", subTopics: [sub("Standards of Professional Conduct and Etiquette (BCI Rules)", false, "3rd July 2024")] },
-          { topicName: "Duties to the Client – Retainer, Fees and Confidentiality", subTopics: [sub("Duties to the Client – Retainer, Fees and Confidentiality", false, "4th July 2024")] },
-          { topicName: "Duties to the Court, Opponent and Colleagues", subTopics: [sub("Duties to the Court, Opponent and Colleagues", false, "5th July 2024")] },
-          { topicName: "Contempt of Court – Civil and Criminal Contempt", subTopics: [sub("Contempt of Court – Civil and Criminal Contempt", false, "6th July 2024")] },
-          { topicName: "Accountancy – Basic Accounting Concepts for Lawyers", subTopics: [sub("Accountancy – Basic Accounting Concepts for Lawyers", false, "7th July 2024")] },
-          { topicName: "Books of Accounts – Ledger, Trial Balance, Journal Entries", subTopics: [sub("Books of Accounts – Ledger, Trial Balance, Journal Entries", false, "8th July 2024")] },
-          { topicName: "Drafting of Plaints, Written Statements and Petitions", subTopics: [sub("Drafting of Plaints, Written Statements and Petitions", false, "9th July 2024")] },
-          { topicName: "Art of Advocacy – Oral Arguments, Submissions and Appeals", subTopics: [sub("Art of Advocacy – Oral Arguments, Submissions and Appeals", false, "10th July 2024")] },
+          {
+            topicName: "Introduction to Professional Ethics and Advocacy [Free Preview]",
+            subTopics: [
+              sub(
+                "Course introduction and roadmap",
+                true,
+                "14th May, 2026",
+                "https://drive.google.com/file/d/111YI1LES5NAbxhr7v9wSDk3E-t7ydxxo/view?usp=drivesdk",
+                "https://drive.google.com/file/d/1xmI9776NoPpA7cXVbdVTuJD5G9IBXN3n/view?usp=drive_link"
+              ),
+            ],
+          },
+          {
+            topicName: "The Advocates Act, 1961",
+            subTopics: [
+              sub(
+                "Introduction",
+                false,
+                "14th May, 2026",
+                "https://drive.google.com/file/d/111YI1LES5NAbxhr7v9wSDk3E-t7ydxxo/view",
+                "https://drive.google.com/file/d/1xmI9776NoPpA7cXVbdVTuJD5G9IBXN3n/view?usp=drive_link"
+              ),
+              sub(
+                "Bar Councils",
+                false,
+                "14th May, 2026",
+                "https://drive.google.com/file/d/10VGhoJ9OOQx9Yj3cVDUac5-9i4DDi1do/view?usp=drive_link",
+                "https://drive.google.com/file/d/1DtN-SLSafDUJIBL6rCYdAKattVFrHLSj/view?usp=drive_link"
+              ),
+            ],
+          },
+          {
+            topicName: "Admissions and Enrollment of Advocates",
+            subTopics: [
+              sub(
+                "Admissions and Enrollment of Advocates",
+                false,
+                "14th May, 2026",
+                "https://drive.google.com/file/d/10Ug7VnhdgVKJuMGVdFklf23xatSntKHn/view?usp=drive_link",
+                "https://drive.google.com/file/d/1UTiYGmvnTgeZvMzqqNcFd3p3En_7gHpv/view?usp=drive_link"
+              ),
+              sub(
+                "Eligibility, Procedure and Enrollment Certificate",
+                false,
+                "14th May, 2026",
+                "https://drive.google.com/file/d/111eAUzp-GqN231Ydbr6OSROr3YnL-tlI/view?usp=drive_link",
+                "https://drive.google.com/file/d/1UTiYGmvnTgeZvMzqqNcFd3p3En_7gHpv/view?usp=drive_link"
+              ),
+            ],
+          },
+          {
+            topicName: "Right to Practice",
+            subTopics: [
+              sub(
+                "Right to Practice",
+                false,
+                "14th May, 2026",
+                "https://drive.google.com/file/d/15Mbxzyj5SMukUeNofsA_2H1q6FSEinPA/view?usp=drive_link",
+                "https://drive.google.com/file/d/1YTVjjsumW-lZ1wRt8URjLaBl-Q7XStfT/view?usp=drive_link"
+              ),
+            ],
+          },
+          {
+            topicName: "Conduct of Advocates and Disciplinary Proceedings",
+            subTopics: [
+              sub(
+                "Standards of Professional Conduct and Etiquette",
+                false,
+                "14th May, 2026",
+                "https://drive.google.com/file/d/13SnP_ef49PqwErywO-ycfjwQjCIOR5fT/view?usp=drive_link",
+                "https://drive.google.com/file/d/1ByNN2o8Tvh3JQxSStNfVWu37gpWgNsbO/view?usp=drive_link"
+              ),
+              sub(
+                "Professional Misconduct and Disciplinary Proceedings",
+                false,
+                "14th May, 2026",
+                "https://drive.google.com/file/d/11hm6i4txvj15Jmqfn4Vel17x3-6Q8_D0/view?usp=drive_link",
+                "https://drive.google.com/file/d/11VI_r9Eh3ITZdNYNMbazPitUpN4eyJQu/view?usp=drive_link"
+              ),
+            ],
+          },
+          {
+            topicName: "Contempt of Court",
+            subTopics: [
+              sub(
+                "Contempt of Courts Act, 1971",
+                false,
+                "14th May, 2026",
+                "https://drive.google.com/file/d/13Psa9m9eUuid6ru0Bk1K_nJ10BNA1qmT/view?usp=drive_link",
+                "https://drive.google.com/file/d/1hRpZ_nJZSqf-tUysO3Tmav0yP90JUG1d/view?usp=drive_link"
+              ),
+              sub(
+                "Case law and statutory interpretation",
+                false,
+                "14th May, 2026",
+                "https://drive.google.com/file/d/13msObZ0zh4dBW9HNFf4dZletF5vDvX-j/view?usp=drive_link",
+                "https://drive.google.com/file/d/1fin4aCstUuGhXytdhrBmpENZ7an5uE0m/view?usp=drive_link"
+              ),
+            ],
+          },
+          {
+            topicName: "Defences Available in Contempt of Court",
+            subTopics: [
+              sub(
+                "Defences Available in Contempt of Court",
+                false,
+                "14th May, 2026",
+                "https://drive.google.com/file/d/14cgpeK_zteOfZCiY_OahRWCfgK8BdKXS/view?usp=drive_link",
+                "https://drive.google.com/file/d/1RSm8g8MctZsFPNZwy1L3o5qomMm4uaGc/view?usp=drive_link"
+              ),
+              sub(
+                "Practical analysis and problem-solving approach",
+                false,
+                "14th May, 2026",
+                "https://drive.google.com/file/d/15rrht-OBSUbr8zrySyptNpL4ltfvvObo/view?usp=drive_link",
+                "https://drive.google.com/file/d/1RSm8g8MctZsFPNZwy1L3o5qomMm4uaGc/view?usp=drive_link"
+              ),
+            ],
+          },
+          {
+            topicName: "Contempt by Judges and Magistrates [Free Preview]",
+            subTopics: [
+              sub(
+                "Contempt by Judges & Magistrates",
+                true,
+                "14th May, 2026",
+                "https://drive.google.com/file/d/153G-Aph0gAy_bdpiVxNQQsNQ5ePkno9V/view?usp=drive_link",
+                "https://drive.google.com/file/d/1FMmCo9JnWBpMnYo1kggKWF_idmGLldw1/view?usp=drive_link"
+              ),
+            ],
+          },
+          {
+            topicName: "Punishment and Procedure in Contempt Matters",
+            subTopics: [
+              sub(
+                "Punishment for Contempt",
+                false,
+                "14th May, 2026",
+                "https://drive.google.com/file/d/159wiNR42tRvIfq2tCCfm2EMIfWRZixbO/view?usp=drive_link",
+                "https://drive.google.com/file/d/1Ww5IsuwBvEdNO1lumTaLN6Dyi4_SZdy1/view?usp=drive_link"
+              ),
+              sub(
+                "Procedure of Contempt",
+                false,
+                "14th May, 2026",
+                "https://drive.google.com/file/d/157pKC9NAAvHIicIR-8uDb-5xMWkJZiTO/view?usp=drive_link",
+                "https://drive.google.com/file/d/1-iNEXg7Sfeks___9lZL7eZKXeyUccYTI/view?usp=drive_link"
+              ),
+            ],
+          },
+          {
+            topicName: "Rules Governing Advocates",
+            subTopics: [
+              sub(
+                "Part 1",
+                false,
+                "14th May, 2026",
+                "https://drive.google.com/file/d/13VlCXQ5rpDJNIDOiEP0DA-RhDm_li_nQ/view?usp=drive_link",
+                "https://drive.google.com/file/d/1ULoKLJuBLbm6UcKSSvl3vBo--etr-YzR/view?usp=drive_link"
+              ),
+              sub(
+                "Part 2",
+                false,
+                "14th May, 2026",
+                "https://drive.google.com/file/d/15ZR45fXTUQSO8DcTgmUIdppNICH-76hK/view?usp=drive_link",
+                "https://drive.google.com/file/d/1ULoKLJuBLbm6UcKSSvl3vBo--etr-YzR/view?usp=drive_link"
+              ),
+              sub(
+                "Part 3",
+                false,
+                "14th May, 2026",
+                "https://drive.google.com/file/d/13URNM90RTN2ZZhi-7pTuau51oSaiOqz4/view?usp=drive_link",
+                "https://drive.google.com/file/d/1UvsXnPvZYXccv8GRwdAbFp1Fppgjaw8C/view?usp=drive_link"
+              ),
+            ],
+          },
+          {
+            topicName: "Summary of Case Laws",
+            subTopics: [
+              sub(
+                "Case Summary Lecture 1",
+                false,
+                "14th May, 2026",
+                "https://drive.google.com/file/d/11tciczaQR2BCzYttQlfZ86WQmFxkatAY/view?usp=drive_link",
+                "https://drive.google.com/file/d/1-nHUeSJWU4M2UKpX4qnwd5aUmvcpf9is/view?usp=drive_link"
+              ),
+              sub(
+                "Case Summary Lecture 2",
+                false,
+                "14th May, 2026",
+                "https://drive.google.com/file/d/116XS83CrENyp4ZHkwGnokUdzv-2EvKGc/view?usp=drive_link",
+                "https://drive.google.com/file/d/1ctMxGyu8xAYblbMDOlmCT_dmeUG8oERw/view?usp=drive_link"
+              ),
+              sub(
+                "Case Summary Lecture 3",
+                false,
+                "14th May, 2026",
+                "https://drive.google.com/file/d/11Cmn3eYGmDNwjOVbWQW7UTzFmcP8-tMP/view?usp=drive_link",
+                "#"
+              ),
+            ],
+          },
+          {
+            topicName: "Revision of Important Topics I",
+            subTopics: [
+              sub(
+                "Contempt of Court versus Freedom of Speech",
+                false,
+                "14th May, 2026",
+                "https://drive.google.com/file/d/1Bj028hjpvIgD74iREmtQmyhA2yctw09d/view?usp=drive_link",
+                "https://drive.google.com/file/d/1skENF69JHMNqtzGmXTbs71MVQ0q96pDl/view?usp=drive_link"
+              ),
+              sub(
+                "Power to Suspend Advocates during Misconduct",
+                false,
+                "14th May, 2026",
+                "https://drive.google.com/file/d/14F67c8LCgCiXlgTSXzaA3Y8CKRTe4mwP/view?usp=drive_link",
+                "https://drive.google.com/file/d/1T-ER0kEXQawcLeWxZC9_H1YoHcx-dG7w/view?usp=drive_link"
+              ),
+            ],
+          },
+          {
+            topicName: "Revision of Important Topics II",
+            subTopics: [
+              sub(
+                "Defences to Contempt of Court",
+                false,
+                "14th May, 2026",
+                "https://drive.google.com/file/d/1pYWk_dYh9hYm4JwXPaHdTCPARWZP2erb/view?usp=drive_link",
+                "https://drive.google.com/file/d/1d65R48_IzlUZd07tqKzhFuPD_S1ssa1O/view?usp=drive_link"
+              ),
+              sub(
+                "Advocates Duty towards Client: Legal and Ethical Framework",
+                false,
+                "14th May, 2026",
+                "https://drive.google.com/file/d/1MPmAne8k576tCl3pYE_iUrN33erHFWl_/view?usp=drive_link",
+                "https://drive.google.com/file/d/1FytP-Xbjm88vogoSBdOPSOMHo4_mjio8/view?usp=drive_link"
+              ),
+            ],
+          },
+          {
+            topicName: "Revision of Important Topics III",
+            subTopics: [
+              sub(
+                "Professional Misconduct Under Advocates Act",
+                false,
+                "14th May, 2026",
+                "https://drive.google.com/file/d/11hm6i4txvj15Jmqfn4Vel17x3-6Q8_D0/view?usp=drive_link",
+                "https://drive.google.com/file/d/11VI_r9Eh3ITZdNYNMbazPitUpN4eyJQu/view?usp=drive_link"
+              ),
+            ],
+          },
+          {
+            topicName: "Complete Framework for Professional Ethics Exam",
+            subTopics: [
+              sub(
+                "Lecture notes",
+                false,
+                "14th May, 2026",
+                "#",
+                "https://drive.google.com/file/d/1E4tItKGcwSlSotdXtzX4MSQzHEFW-QZI/view?usp=drive_link"
+              ),
+            ],
+          },
+          {
+            topicName: "Solved Question Paper",
+            subTopics: [
+              sub(
+                "2024 Question Paper Solved",
+                false,
+                "14th May, 2026",
+                "https://drive.google.com/file/d/1jm8BrN7swJvlj0Rnzedh86T6Hj9eXFWV/view?usp=drive_link",
+                "https://drive.google.com/file/d/1GZpiZLQj0lWb-O9yi8pK6azxuOK4ajtC/view?usp=drive_link"
+              ),
+            ],
+          },
         ],
       },
 
@@ -409,7 +675,7 @@ const courses = [
         lastUpdated: "16th July 2024",
         language: "English with conversational Hindi",
         accessibleTill: "31st August, 2024",
-        img: require("./Assets/Images/course-card-bg.png"),
+        img: "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=400&h=250&fit=crop",
         authorBio:
           "We provide top quality semester preparation content specially designed for law students. This course covers arbitration, mediation and Lok Adalat with practical insights and solved PYQs.",
         contents: [
@@ -435,7 +701,7 @@ const courses = [
         lastUpdated: "14th July 2024",
         language: "English with conversational Hindi",
         accessibleTill: "31st August, 2024",
-        img: require("./Assets/exam.jpg"),
+        img: "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=400&h=250&fit=crop",
         authorBio:
           "We provide top quality semester preparation content specially designed for law students. This course covers Indian and international environmental law with PIL case studies and solved PYQs.",
         contents: [
@@ -461,7 +727,7 @@ const courses = [
         lastUpdated: "12th July 2024",
         language: "English with conversational Hindi",
         accessibleTill: "31st August, 2024",
-        img: require("./Assets/video.jpg"),
+        img: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=400&h=250&fit=crop",
         authorBio:
           "We provide top quality semester preparation content specially designed for law students. This course makes taxation law accessible with no prior accounting knowledge required and solved PYQs.",
         contents: [
@@ -487,7 +753,7 @@ const courses = [
         lastUpdated: "11th July 2024",
         language: "English with conversational Hindi",
         accessibleTill: "31st August, 2024",
-        img: require("./Assets/notes2.jpg"),
+        img: "https://images.unsplash.com/photo-1601597111158-2fceff292cdc?w=400&h=250&fit=crop",
         authorBio:
           "We provide top quality semester preparation content specially designed for law students. This course covers insurance and banking regulation with practical examples and exam-focused notes.",
         contents: [

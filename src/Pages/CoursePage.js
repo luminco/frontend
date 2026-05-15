@@ -35,12 +35,13 @@ const PaymentModal = ({ course, onClose }) => {
               <img src={qrCode} alt="Payment QR" className="modal-qr" />
               <p className="modal-or">OR</p>
               <p className="modal-upi-label">UPI ID:</p>
-              <p className="modal-upi-id">lumin.co.in@axl</p>
+              <p className="modal-upi-id">lumin.education@axl</p>
               <div className="modal-instructions">
                 <p>Scan the QR code or pay the required amount on the given UPI ID.</p>
                 <p>After paying, fill out the details in the form provided.</p>
                 <p>You will be given access to course material through your email ID that you have filled in the form.</p>
                 <p>The confirmation will be done within 2 hours.</p>
+                <p>Contact this no. further assistance- 8851122495</p>
               </div>
             </div>
             <div className="modal-right">
@@ -148,9 +149,9 @@ const CoursePage = () => {
     ? course.instructor : course.instructor?.name || "";
   const price       = formatPrice(course.price);
   const origPrice   = Math.round(parseFloat(course.price || 299) / 0.6);
-  const lastUpdated = course.lastUpdated    || "15th June 2024";
+  const lastUpdated = course.lastUpdated    || "14th May, 2026";
   const language    = course.language       || "English with conversational Hindi";
-  const accessible  = course.accessibleTill || "31st August, 2024";
+  const accessible  = course.accessibleTill || "30th September 2026";
   const authorBio   = course.authorBio
     || "We provide top quality semester preparation content specially designed for law students. This course contains concise notes, case summaries, video lectures, and solved PYQs.";
 
@@ -168,7 +169,7 @@ const CoursePage = () => {
           <span className="cp-price-orig">₹{origPrice}</span>
           <span className="cp-price-off">40% off</span>
         </div>
-        <p className="cp-exclusive">🔔 Exclusive for first 300 students!</p>
+        <p className="cp-exclusive">🔔 Exclusive for first 50 students!</p>
         <button className="cp-buy-btn" onClick={() => setShowModal(true)}>
           Buy Now
         </button>

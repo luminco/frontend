@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import CourseCard from '../Components/CourseCard';
 import coursePlaceholder from '../Assets/Images/course-card-bg.png';
-import axios from '../axios';
+// import axios from '../axios';
 import { courses as localCourseData } from '../data';
 
 const TERM_ORDER = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10'];
@@ -37,20 +37,20 @@ const Home = () => {
   const [loading, setLoading] = useState(false); // local data shown instantly, no loading spinner needed
   const [error, setError] = useState(false);
 
-  useEffect(() => {
-    const getData = async () => {
-      try {
-        const res = await axios.get('/user/courses/all');
-        if (Array.isArray(res.data) && res.data.length > 0) {
-          setCourses(res.data);
-        }
-      } catch (err) {
-        console.error('Failed to fetch live courses:', err);
-        // Don't show error — local data is already displayed
-      }
-    };
-    getData();
-  }, []);
+  // useEffect(() => {
+  //   const getData = async () => {
+  //     try {
+  //       const res = await axios.get('/user/courses/all');
+  //       if (Array.isArray(res.data) && res.data.length > 0) {
+  //         setCourses(res.data);
+  //       }
+  //     } catch (err) {
+  //       console.error('Failed to fetch live courses:', err);
+  //       // Don't show error — local data is already displayed
+  //     }
+  //   };
+  //   getData();
+  // }, []);
 
   // Group by term
   const coursesByTerm = (courses || []).reduce((acc, course) => {
@@ -74,6 +74,9 @@ const Home = () => {
   };
 
   return (
+  
+
+  <div className="main-container">
     <>
       {/* ─── HERO ─── */}
       <section className="container">
@@ -179,6 +182,8 @@ const Home = () => {
         )}
       </section>
     </>
+  </div>  
+    
   );
 };
 
