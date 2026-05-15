@@ -56,44 +56,44 @@ const courses = [
             
           },
           {
-            topicName: "Relevant Facts, Difference b/w Facts in Issue and Relevant Facts, Types of Evidence, Facts - Proved,Disproved and Not Proved [Free Preview]",
+            topicName: "Relevancy Of Facts",
             subTopics: [sub("Relevant Facts, Difference b/w Facts in Issue and Relevant Facts, Types of Evidence, Facts - Proved,Disproved and Not Proved (Free)", true, "3rd July 2024","https://drive.google.com/file/d/1paEikvaje5nX7bP_mHL9jUepsplYmYhF/view?usp=drive_link")],
           },
           {
-            topicName: "Doctrine of relevancy, Difference b/w Admissibility and Relevance, Res gestate",
-            subTopics: [sub("Doctrine of relevancy, Difference b/w Admissibility and Relevance, Res gestate", false,"3rd July 2024","https://drive.google.com/file/d/1qRzX9vY8zZzZzZzZzZzZzZzZzZzZzZz/view?usp=drive_link")],
+            topicName: "Admission and Confession_Dying Declaration",
+            subTopics: [sub("Admission and Confession_Dying Declaration", false,"3rd July 2024","https://drive.google.com/file/d/1B2_GTXGclIgpQk-LLE55KIfHxl4EWITE/view?usp=drive_link")],
           },
           {
-            topicName: "Section 7 and 8",
-            subTopics: [sub("Section 7 and 8", false, "3rd July 2024")],
+            topicName: "Opinion of third person when valid",
+            subTopics: [sub("Opinion of third person when valid", false, "3rd July 2024","https://drive.google.com/file/d/1Pex20gp1m1Hk2xqmhpFOpFgj0JzPcpZJ/view?usp=drive_link")],
           },
           {
-            topicName: "Admissions – Defined, Kinds, Proof and Exceptions",
-            subTopics: [sub("Admissions – Defined, Kinds, Proof and Exceptions", false, "4th July 2024")],
+            topicName: "Facts neeed not to be Proved",
+            subTopics: [sub("Facts neeed not to be Proved", false, "4th July 2024","https://drive.google.com/file/d/1uxNp-9IqtgbKDs-ddn-09iCyPHEfCOeg/view?usp=drive_link")],
           },
           {
-            topicName: "Confessions – Defined, Kinds, Relevancy and Proof",
-            subTopics: [sub("Confessions – Defined, Kinds, Relevancy and Proof", false, "4th July 2024")],
+            topicName: "Oral evidence",
+            subTopics: [sub("Oral evidence", false, "4th July 2024","https://drive.google.com/file/d/11uwKyR81-AHO3PXNFTMWtrzLz_IwxwHb/view?usp=drive_link")],
           },
           {
-            topicName: "Dying Declarations and Statements by Persons who cannot be Called as Witnesses",
-            subTopics: [sub("Dying Declarations and Statements by Persons who cannot be Called as Witnesses", false, "5th July 2024")],
+            topicName: "Estoppel",
+            subTopics: [sub("Estoppel", false, "5th July 2024","https://drive.google.com/file/d/11Z4GCGLvXh_DyNaKz5xz8SBHeiL083kx/view?usp=drive_link")],
           },
           {
-            topicName: "Expert Opinion and Opinion as to Handwriting",
-            subTopics: [sub("Expert Opinion and Opinion as to Handwriting", false, "5th July 2024")],
+            topicName: "Burden of Proof",
+            subTopics: [sub("Burden of Proof", false, "5th July 2024","https://drive.google.com/file/d/1b9I0YKY00kRkQhEm_v3pnc_UZPkojatb/view?usp=drive_link")],
           },
           {
-            topicName: "Oral and Documentary Evidence – Primary and Secondary Evidence",
-            subTopics: [sub("Oral and Documentary Evidence – Primary and Secondary Evidence", false, "6th July 2024")],
+            topicName: "Presumptions",
+            subTopics: [sub("Presumptions", false, "6th July 2024","https://drive.google.com/file/d/14HvXyZQBOcKeza9rB5unYqyIfktmMNF9/view?usp=drive_link")],
           },
           {
-            topicName: "Examination of Witnesses – Examination-in-Chief, Cross, Re-Examination",
-            subTopics: [sub("Examination of Witnesses – Examination-in-Chief, Cross, Re-Examination", false, "6th July 2024")],
+            topicName: "Witnesses",
+            subTopics: [sub("Witnesses", false, "6th July 2024","https://drive.google.com/file/d/1YiN7K_Qth5_fqjT0aFJEpL73-_t8Q_ID/view?usp=drive_link")],
           },
           {
-            topicName: "Burden of Proof, Estoppel and Improper Admission of Evidence",
-            subTopics: [sub("Burden of Proof, Estoppel and Improper Admission of Evidence", false, "6th July 2024")],
+            topicName: "Accomplice",
+            subTopics: [sub("Accomplice", false, "6th July 2024","https://drive.google.com/file/d/1dVjr0o1I8RJ89HE3nCfx1aPwp7O_bbJz/view?usp=drive_link")],
           },
         ],
       },
