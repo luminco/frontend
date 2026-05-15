@@ -41,26 +41,27 @@ const courses = [
       {
         id: "lb201",
         courseName: "Law of Evidence (LB-201)",
-        instructor: "Aakanksha Derashree",
+        instructor: "Rupali Gupta",
         price: "299",
         lastUpdated: "6th July 2024",
         language: "English with conversational Hindi",
         accessibleTill: "31st August, 2024",
         img: "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=400&h=250&fit=crop",
         authorBio:
-          "We provide top quality semester preparation content specially designed for law students. This course contains concise notes, case summaries, video lectures, and solved PYQs.",
+          "As an Assistant Professor of Law, I bring a strong academic foundation combined with practical experience in mentoring, research, and event organization. I hold a Master’s degree in Law from Himachal Pradesh National Law University (HPNLU), Shimla, and a Bachelor’s degree from Amity University. I successfully cleared the UGC-NET exam in my maiden attempt. Over the course of my career, I have mentored over 100 students preparing for the judiciary, and I actively participate in organizing and speaking at seminars, conferences, and workshops. My contributions to the academic community are reflected in several publications in UGC-Care-approved journals and books, focusing primarily on Family Law and Criminal Law. I am committed to empowering the next generation of legal professionals by not only delivering high-quality education but also by providing guidance in their career and academic growth.",
         contents: [
           {
             topicName: "GENERAL ISSUES RELATING TO LAW OF EVIDENCE",
-            subTopics: [sub("GENERAL ISSUES RELATING TO LAW OF EVIDENCE", false, "3rd July 2024")],
+            subTopics: [sub("GENERAL ISSUES RELATING TO LAW OF EVIDENCE", false, "3rd July 2024","https://drive.google.com/file/d/1ykyc5aZy61iucj8WDI6czcEAxJevJLEQ/view?usp=drive_link")],
+            
           },
           {
             topicName: "Relevant Facts, Difference b/w Facts in Issue and Relevant Facts, Types of Evidence, Facts - Proved,Disproved and Not Proved [Free Preview]",
-            subTopics: [sub("Relevant Facts, Difference b/w Facts in Issue and Relevant Facts, Types of Evidence, Facts - Proved,Disproved and Not Proved (Free)", true, "3rd July 2024")],
+            subTopics: [sub("Relevant Facts, Difference b/w Facts in Issue and Relevant Facts, Types of Evidence, Facts - Proved,Disproved and Not Proved (Free)", true, "3rd July 2024","https://drive.google.com/file/d/1paEikvaje5nX7bP_mHL9jUepsplYmYhF/view?usp=drive_link")],
           },
           {
             topicName: "Doctrine of relevancy, Difference b/w Admissibility and Relevance, Res gestate",
-            subTopics: [sub("Doctrine of relevancy, Difference b/w Admissibility and Relevance, Res gestate", false, "3rd July 2024")],
+            subTopics: [sub("Doctrine of relevancy, Difference b/w Admissibility and Relevance, Res gestate", false,"3rd July 2024","https://drive.google.com/file/d/1qRzX9vY8zZzZzZzZzZzZzZzZzZzZzZz/view?usp=drive_link")],
           },
           {
             topicName: "Section 7 and 8",
