@@ -162,55 +162,159 @@ const PaymentForm = ({ courseId, title, onClose }) => {
     });
   };
 
-  const handleSubmit = async (e) => {
-    e.preventDefault();
+  // const handleSubmit = async (e) => {
+  //   e.preventDefault();
 
-    setLoading(true);
-    setError("");
-    setSuccess("");
+  //   setLoading(true);
+  //   setError("");
+  //   setSuccess("");
 
-    try {
-      const formData = new FormData();
+  //   try {
+  //     const formData = new FormData();
 
-      // GOOGLE FORM ENTRY IDS
-      formData.append("entry.1598495340", paymentData.email);
-      formData.append("entry.16627134", paymentData.mobile);
-      formData.append("entry.686243578", paymentData.transactionId);
-      formData.append("entry.631697079", courseId);
-      formData.append("entry.706764247", title);
+  //     // GOOGLE FORM ENTRY IDS
+  //     formData.append("entry.1598495340", paymentData.email);
+  //     formData.append("entry.16627134", paymentData.mobile);
+  //     formData.append("entry.686243578", paymentData.transactionId);
+  //     formData.append("entry.631697079", courseId);
+  //     formData.append("entry.706764247", title);
 
-      await fetch(
-        "https://docs.google.com/forms/d/e/1FAIpQLSdGfT8h21o2PokT_r13cogz2O92HDS7quPlILR1qm9ySeQlaQ/formResponse",
-        {
-          method: "POST",
-          mode: "no-cors",
-          body: formData,
-        }
-      );
+  //     await fetch(
+  //       "https://docs.google.com/forms/d/e/1FAIpQLSdGfT8h21o2PokT_r13cogz2O92HDS7quPlILR1qm9ySeQlaQ/formResponse",
+  //       {
+  //         method: "POST",
+  //         mode: "no-cors",
+  //         body: formData,
+  //       }
+  //     );
 
-      setSuccess(
-        "Payment details submitted successfully! You will receive access within 2 hours."
-      );
+  //     setSuccess(
+  //       "Payment details submitted successfully! You will receive access within 2 hours."
+  //     );
 
-      setPaymentData({
-        email: "",
-        mobile: "",
-        transactionId: "",
-      });
+  //     setPaymentData({
+  //       email: "",
+  //       mobile: "",
+  //       transactionId: "",
+  //     });
 
-      setTimeout(() => {
-        onClose();
-      }, 3000);
-    } catch (err) {
-      console.error(err);
+  //     setTimeout(() => {
+  //       onClose();
+  //     }, 3000);
+  //   } catch (err) {
+  //     console.error(err);
 
-      setError(
-        "Something went wrong while submitting the form. Please try again."
-      );
-    } finally {
-      setLoading(false);
-    }
-  };
+  //     setError(
+  //       "Something went wrong while submitting the form. Please try again."
+  //     );
+  //   } finally {
+  //     setLoading(false);
+  //   }
+  // };
+//   const handleSubmit = async (e) => {
+//   e.preventDefault();
+
+//   setLoading(true);
+//   setError("");
+//   setSuccess("");
+
+//   try {
+//     const formData = new FormData();
+
+//     // GOOGLE FORM ENTRY IDS
+//     formData.append("entry.1598495340", paymentData.email);
+//     formData.append("entry.16627134", paymentData.mobile);
+//     formData.append("entry.686243578", paymentData.transactionId);
+//     formData.append("entry.631697079", courseId);
+//     formData.append("entry.706764247", title);
+
+//     console.log("Submitting form...");
+
+//     await fetch(
+//       "https://docs.google.com/forms/d/e/1FAIpQLSdGfT8h21o2PokT_r13cogz2O92HDS7quPlILR1qm9ySeQlaQ/formResponse",
+//       {
+//         method: "POST",
+//         mode: "no-cors",
+//         body: formData,
+//       }
+//     );
+
+//     console.log("Form submitted successfully");
+
+//     setSuccess(
+//       "Payment details submitted successfully! You will receive access within 2 hours."
+//     );
+
+//     setPaymentData({
+//       email: "",
+//       mobile: "",
+//       transactionId: "",
+//     });
+
+//     setTimeout(() => {
+//       onClose();
+//     }, 3000);
+
+//   } catch (err) {
+//     console.error("Submission Error:", err);
+
+//     setError(
+//       "Something went wrong while submitting the form. Please try again."
+//     );
+//   } finally {
+//     setLoading(false);
+//   }
+// };
+const handleSubmit = async (e) => {
+  e.preventDefault();
+
+  setLoading(true);
+  setError("");
+  setSuccess("");
+
+  try {
+    const formURL =
+      "https://docs.google.com/forms/d/e/1FAIpQLSdGfT8h21o2PokT_r13cogz2O92HDS7quPlILR1qm9ySeQlaQ/formResponse";
+
+    const formData = new FormData();
+
+    // USE YOUR REAL ENTRY IDS HERE
+    formData.append("entry.YOUR_EMAIL_ID", paymentData.email);
+    formData.append("entry.YOUR_MOBILE_ID", paymentData.mobile);
+    formData.append("entry.YOUR_TRANSACTION_ID", paymentData.transactionId);
+    formData.append("entry.YOUR_COURSE_ID", courseId);
+    formData.append("entry.YOUR_TITLE_ID", title);
+
+    await fetch(formURL, {
+      method: "POST",
+      mode: "no-cors",
+      body: formData,
+      headers: {
+        Accept: "application/json",
+      },
+    });
+
+    setSuccess(
+      "Payment details submitted successfully! You will receive access within 2 hours."
+    );
+
+    setPaymentData({
+      email: "",
+      mobile: "",
+      transactionId: "",
+    });
+
+    setTimeout(() => {
+      onClose();
+    }, 3000);
+  } catch (err) {
+    console.error(err);
+
+    setError("Submission failed.");
+  } finally {
+    setLoading(false);
+  }
+};
 
   return (
     <div
