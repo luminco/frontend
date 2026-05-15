@@ -216,27 +216,182 @@ const courses = [
       {
         id: "lb401",
         courseName: "Constitutional Law - II (LB-401)",
-        instructor: "Vikram Nair",
+        instructor: "Deepak Yadav and Ankur Panwar",
         price: "299",
         lastUpdated: "14th May 2026",
         language: "English with conversational Hindi",
         accessibleTill: "30th September, 2026",
         img: "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=400&h=250&fit=crop",
         authorBio:
-          "We provide top quality semester preparation content specially designed for law students. This course covers Fundamental Rights, DPSPs and constitutional amendments with exam-ready notes and solved PYQs.",
+          "Deepak Yadav and Ankur Panwar are dedicated legal educators and professionals committed to simplifying legal concepts through a practical, conceptual, and student-focused approach. With strong academic backgrounds and hands-on legal experience in research, litigation, and legal drafting, they aim to help students build clarity in core subjects while preparing effectively for examinations and professional legal practice.",
+
         contents: [
-          { topicName: "Right to Equality – Articles 14, 15, 16, 17 and 18 [Free Preview]", subTopics: [sub("Right to Equality – Articles 14, 15, 16, 17 and 18", true, "14th May, 2026")] },
-          { topicName: "Right to Freedom – Articles 19-22 and Reasonable Restrictions", subTopics: [sub("Right to Freedom – Articles 19-22 and Reasonable Restrictions", false, "14th May, 2026")] },
-          { topicName: "Right Against Exploitation (Articles 23-24)", subTopics: [sub("Right Against Exploitation (Articles 23-24)", false, "14th May, 2026")] },
-          { topicName: "Right to Freedom of Religion (Articles 25-28)", subTopics: [sub("Right to Freedom of Religion (Articles 25-28)", false, "14th May, 2026")] },
-          { topicName: "Cultural and Educational Rights (Articles 29-30)", subTopics: [sub("Cultural and Educational Rights (Articles 29-30)", false, "14th May, 2026")] },
-          { topicName: "Right to Constitutional Remedies (Article 32) and Writs", subTopics: [sub("Right to Constitutional Remedies (Article 32) and Writs", false, "14th May, 2026")] },
-          { topicName: "Directive Principles of State Policy – Nature and Justiciability", subTopics: [sub("Directive Principles of State Policy – Nature and Justiciability", false, "14th May, 2026")] },
-          { topicName: "Fundamental Duties (Article 51A)", subTopics: [sub("Fundamental Duties (Article 51A)", false, "14th May, 2026")] },
-          { topicName: "Amendment of the Constitution – Procedure and Limitations", subTopics: [sub("Amendment of the Constitution – Procedure and Limitations", false, "14th May, 2026")] },
-          { topicName: "Emergency Provisions – Articles 352, 356 and 360", subTopics: [sub("Emergency Provisions – Articles 352, 356 and 360", false, "14th May, 2026")] },
-          { topicName: "Judicial Review and the Basic Structure Doctrine", subTopics: [sub("Judicial Review and the Basic Structure Doctrine", false, "11th July 2024")] },
-        ],
+
+          {
+            topicName: "‘State’ under Article 12 [Free Preview]",
+            subTopics: [
+              sub(
+                "‘State’ under Article 12",
+                true,
+                "14th May, 2026",
+                "https://drive.google.com/file/d/1E3rtZ6DGPqSpuchRJiOaB4FteNXlWC9z/view?usp=drive_link",
+                "https://docs.google.com/presentation/d/111CzT141Vg-HI2oVw8UnPFomASD-RLlm/edit?usp=drive_link&ouid=117782488399059902207&rtpof=true&sd=true"
+              )
+            ]
+          },
+
+          {
+            topicName: "‘Law’ under Article 13",
+            subTopics: [
+              {
+                name: "‘Law’ under Article 13",
+                isFree: false,
+                lastUpdated: "14th May, 2026",
+
+                videoLinks: [
+                  {
+                    label: "Part 1",
+                    url: "https://drive.google.com/file/d/1vFuaVJFvofRWcgeNbq5ivWXQJumzXsSU/view?usp=drive_link"
+                  },
+
+                  {
+                    label: "Part 2",
+                    url: "https://drive.google.com/file/d/1ShDVE3-7tHg5ThOZzpewr6Q6iHkApajG/view?usp=drive_link"
+                  }
+                ],
+
+                textLink:
+                  "https://docs.google.com/presentation/d/1Nsckvvm9t35mi1pr4T0MKXnTShyVaYZR/edit?usp=drive_link&ouid=117782488399059902207&rtpof=true&sd=true"
+              }
+            ]
+          },
+
+          {
+            topicName: "Article 14",
+            subTopics: [
+              sub(
+                "Article 14",
+                false,
+                "14th May, 2026",
+                "https://drive.google.com/file/d/11e9Pk5MLEM-nYKnTytL7qatghMrmDUMN/view?usp=drive_link",
+                null
+              )
+            ]
+          },
+
+          {
+            topicName: "Article 15 ",
+            subTopics: [
+              sub(
+                "Article 15 ",
+                false,
+                "14th May, 2026",
+                "https://drive.google.com/file/d/1FMhC7xKsgCIvH0rAkmgMji-VHJzaaLwX/view?usp=drive_link",
+                null
+              )
+            ]
+          },
+
+          {
+            topicName: "Article 16",
+            subTopics: [
+              sub(
+                "Article 16",
+                false,
+                "14th May, 2026",
+                "https://drive.google.com/file/d/1ltEfopIiEbCZTkLEH0M67IEL5llfkhnu/view?usp=drive_link",
+                "https://docs.google.com/presentation/d/1A83N2EqR9-VDjd64No3YPO9tEBjTDbpb/edit?usp=drive_link&ouid=117782488399059902207&rtpof=true&sd=true"
+              )
+            ]
+          },
+
+          {
+            topicName: "Article 17th and 18th",
+            subTopics: [
+              sub(
+                "Article 17th and 18th ",
+                false,
+                "14th May, 2026",
+                "https://drive.google.com/file/d/1MS5uwC3a4Lnh3-kpbQdjMbrhd_T6GqWp/view?usp=drive_link",
+                "https://docs.google.com/presentation/d/1BNdAaUfqxc6UXfwe_rLNdb9Vi5Co92qp/edit?usp=drive_link&ouid=117782488399059902207&rtpof=true&sd=true"
+              )
+            ]
+          },
+
+          {
+            topicName: "Right to freedom of Religion",
+            subTopics: [
+              sub(
+                "Right to freedom of Religion",
+                false,
+                "14th May, 2026",
+                "https://drive.google.com/file/d/1nBOpi16m0QEjP2ks4aKQ-XhqK0XLOROK/view?usp=drive_link",
+                null
+              )
+            ]
+          },
+
+          {
+            topicName: "Educational and Cultural Rights ",
+            subTopics: [
+              sub(
+                "Educational and Cultural Rights Part 1",
+                false,
+                "14th May, 2026",
+                "https://drive.google.com/file/d/18gVW3uzMAgf7k5E2MjeY7kPnUiomz7nB/view?usp=drive_link",
+                null
+              ),
+
+              sub(
+                "Educational and Cultural Rights Part 2",
+                false,
+                "14th May, 2026",
+                "https://drive.google.com/file/d/1kJR-ZgEN2SI1keD30Ah57xA2Ph5_JrZ8/view?usp=drive_link",
+                null
+              )
+            ]
+          },
+
+          {
+            topicName: "PYQs Solved Part – 1",
+            subTopics: [
+              sub(
+                "PYQs Solved Part – 1",
+                false,
+                "14th May, 2026",
+                "https://drive.google.com/file/d/1KvdBafj2FMh3Mf2s4l_pZ-81hDGNRCEh/view?usp=drive_link",
+                null
+              )
+            ]
+          },
+
+          {
+            topicName: "PYQs Solved Part -2 ",
+            subTopics: [
+              sub(
+                "PYQs Solved Part -2 ",
+                false,
+                "14th May, 2026",
+                "https://drive.google.com/file/d/1KvdBafj2FMh3Mf2s4l_pZ-81hDGNRCEh/view?usp=drive_link",
+                null
+              )
+            ]
+          },
+
+          {
+            topicName: "PYQs Solved Part -3",
+            subTopics: [
+              sub(
+                "PYQs Solved Part -3",
+                false,
+                "14th May, 2026",
+                "https://drive.google.com/file/d/1SAqEbkqBujZKjUyeQZsb9O9nHIcrAeG9/view?usp=drive_link",
+                null
+              )
+            ]
+          }
+
+        ]
       },
 
       /* LB-402 ─ Administrative Law */
