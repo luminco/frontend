@@ -334,24 +334,27 @@ const courses = [
           {
             topicName: "Educational and Cultural Rights ",
             subTopics: [
-              sub(
-                "Educational and Cultural Rights Part 1",
-                false,
-                "14th May, 2026",
-                "https://drive.google.com/file/d/18gVW3uzMAgf7k5E2MjeY7kPnUiomz7nB/view?usp=drive_link",
-                null
-              ),
+              {
+                name: "Educational and Cultural Rights",
+                isFree: false,
+                lastUpdated: "14th May, 2026",
 
-              sub(
-                "Educational and Cultural Rights Part 2",
-                false,
-                "14th May, 2026",
-                "https://drive.google.com/file/d/1kJR-ZgEN2SI1keD30Ah57xA2Ph5_JrZ8/view?usp=drive_link",
-                null
-              )
+                videoLinks: [
+                  {
+                    label: "Part 1",
+                    url: "https://drive.google.com/file/d/18gVW3uzMAgf7k5E2MjeY7kPnUiomz7nB/view?usp=drive_link"
+                  },
+
+                  {
+                    label: "Part 2",
+                    url: "https://drive.google.com/file/d/1kJR-ZgEN2SI1keD30Ah57xA2Ph5_JrZ8/view?usp=drive_link"
+                  }
+                ],
+
+                textLink: null
+              }
             ]
           },
-
           {
             topicName: "PYQs Solved Part – 1",
             subTopics: [
