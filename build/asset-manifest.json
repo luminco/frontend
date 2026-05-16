@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0de00e48.css",
+    "main.js": "/static/js/main.0246e9f3.js",
+    "static/media/case.jpg": "/static/media/case.74a40fbeb7cf1828a79e.jpg",
+    "static/media/notes1.jpg": "/static/media/notes1.601442751c2135b525d3.jpg",
+    "static/media/pankaj.jpeg": "/static/media/pankaj.4d39126c33b8686390bc.jpeg",
+    "static/media/video.jpg": "/static/media/video.25d1df0942ed7e94a76d.jpg",
+    "static/media/notes2.jpg": "/static/media/notes2.7fa7fd768b911d6b4220.jpg",
+    "static/media/exam.jpg": "/static/media/exam.c3aa2ca4f4e588b35fb6.jpg",
+    "static/media/qrcode.png": "/static/media/qrcode.87ef0884bf3f6c0f1e75.png",
+    "static/media/placeholder.png": "/static/media/placeholder.4cbbda85d32907bd006f.png",
+    "static/media/course-card-bg.png": "/static/media/course-card-bg.ed294d58a8c97b2cb948.png",
+    "static/media/newlogin.png": "/static/media/newlogin.e1247808dfa0129918ef.png",
+    "index.html": "/index.html",
+    "main.0de00e48.css.map": "/static/css/main.0de00e48.css.map",
+    "main.0246e9f3.js.map": "/static/js/main.0246e9f3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0de00e48.css",
+    "static/js/main.0246e9f3.js"
+  ]
+}

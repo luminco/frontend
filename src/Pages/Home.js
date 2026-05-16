@@ -74,6 +74,9 @@ const Home = () => {
   };
 
   return (
+  
+
+  <div className="main-container">
     <>
       {/* ─── HERO ─── */}
       <section className="container">
@@ -179,6 +182,8 @@ const Home = () => {
         )}
       </section>
     </>
+  </div>  
+    
   );
 };
 
