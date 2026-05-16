@@ -142,8 +142,42 @@ const AccordionRow = ({ topic, isOpen, onToggle }) => {
                   : <em className="acc-badge acc-badge--paid"> (Paid)</em>}
               </p>
               <div className="acc-sub-links">
-                <a href={sub.videoLink || "#"} className="acc-sub-link">🎬 Video Lecture</a>
-                <a href={sub.textLink  || "#"} className="acc-sub-link">📄 Lecture Notes</a>
+                {sub.videoLinks ? (
+                  sub.videoLinks.map((video, idx) => (
+                    <a
+                      key={idx}
+                      href={video.url}
+                      className="acc-sub-link"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      🎬 {video.label}
+                    </a>
+                  ))
+                ) : (
+                  sub.videoLink && (
+                    <a
+                      href={sub.videoLink}
+                      className="acc-sub-link"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      🎬 Video Lecture
+                    </a>
+                  )
+                )}
+
+                {sub.textLink && (
+                  <a
+                    href={sub.textLink}
+                    className="acc-sub-link"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    📄 Lecture Notes
+                  </a>
+                )}
+
               </div>
               <p className="acc-sub-date">Last Updated: {sub.lastUpdated}</p>
             </div>
