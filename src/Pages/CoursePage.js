@@ -31,20 +31,20 @@ const handleSubmit = async (e) => {
   try {
     const formData = new FormData();
 
-    formData.append("entry.2045910219", form.email);
-    formData.append("entry.1980892240", courseIdUp);
-    formData.append("entry.119183208", form.mobile);
-    formData.append("entry.1020108503", course.courseName);
-    formData.append("entry.1418791824", form.txnId);
+    formData.append("entry.1577524505", form.email);
+    formData.append("entry.936412571", courseIdUp);
+    formData.append("entry.1644652401", form.mobile);
+    formData.append("entry.1460112077", course.courseName);
+    formData.append("entry.762969253", form.txnId);
 
-    await fetch(
-      "https://docs.google.com/forms/d/e/1FAIpQLScTo8dR46TwvJrK2Os5H2o2chf53fI7iuEdgXlGthtjF4bp2w/formResponse",
-      {
-        method: "POST",
-        mode: "no-cors",
-        body: formData,
-      }
-    );
+await fetch(
+  "https://docs.google.com/forms/d/e/1FAIpQLSfYoeU8edLBEFZp4L27wmWZW0ye53TveUDtSXqfelH77laIFg/formResponse",
+  {
+    method: "POST",
+    mode: "no-cors",
+    body: formData,
+  }
+);
 
     alert("Payment submitted successfully!");
 
@@ -142,45 +142,50 @@ const AccordionRow = ({ topic, isOpen, onToggle }) => {
                   : <em className="acc-badge acc-badge--paid"> (Paid)</em>}
               </p>
               <div className="acc-sub-links">
-                {sub.videoLinks ? (
-                  sub.videoLinks.map((video, idx) => (
-                    <a
-                      key={idx}
-                      href={video.url}
-                      className="acc-sub-link"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      🎬 {video.label}
-                    </a>
-                  ))
-                ) : (
-                  sub.videoLink && (
-                    <a
-                      href={sub.videoLink}
-                      className="acc-sub-link"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      🎬 Video Lecture
-                    </a>
-                  )
-                )}
 
-                {sub.textLink && (
-                  <a
-                    href={sub.textLink}
-                    className="acc-sub-link"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    📄 Lecture Notes
-                  </a>
-                )}
+  {sub.videoLinks ? (
+    sub.videoLinks.map((video, idx) => (
+      <a
+        key={idx}
+        href={video.url}
+        className="acc-sub-link"
+        target="_blank"
+        rel="noreferrer"
+      >
+        🎬 {video.label}
+      </a>
+    ))
+  ) : (
+    sub.videoLink && (
+      <a
+        href={sub.videoLink}
+        className="acc-sub-link"
+        target="_blank"
+        rel="noreferrer"
+      >
+        🎬 Video Lecture
+      </a>
+    )
+  )}
 
-              </div>
-              <p className="acc-sub-date">Last Updated: {sub.lastUpdated}</p>
-            </div>
+  {sub.textLink && (
+    <a
+      href={sub.textLink}
+      className="acc-sub-link"
+      target="_blank"
+      rel="noreferrer"
+    >
+      📄 Lecture Notes
+    </a>
+  )}
+
+</div>
+
+<p className="acc-sub-date">
+  Last Updated: {sub.lastUpdated}
+</p>
+
+</div>
           ))}
         </div>
       )}

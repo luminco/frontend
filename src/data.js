@@ -99,31 +99,31 @@ const courses = [
       },
 
       /* LB-202 ─ Family Law 2 */
-      {
-        id: "lb202",
-        courseName: "Family Law 2 (LB-202)",
-        instructor: "Beauty Gupta and Imama",
-        price: "299",
-        lastUpdated: "14th May 2026",
-        language: "English with conversational Hindi",
-        accessibleTill: "30th September, 2026",
-        img: "https://images.unsplash.com/photo-1536640712-4d4c36ff0e4e?w=400&h=250&fit=crop",
-        authorBio:
-          "We provide top quality semester preparation content specially designed for law students. This course covers Hindu personal law, succession, and family law with concise notes and solved PYQs.",
-        contents: [
-          { topicName: "Joint Hindu Family and Hindu Coparcenary [Free Preview]", subTopics: [sub("Joint Hindu Family and Hindu Coparcenary", true, "14th May, 2026")] },
-          { topicName: "Karta – Position, Powers and Liabilities", subTopics: [sub("Karta – Position, Powers and Liabilities", false, "14th May, 2026")] },
-          { topicName: "Alienation of Joint Hindu Family Property", subTopics: [sub("Alienation of Joint Hindu Family Property", false, "14th May, 2026")] },
-          { topicName: "Partition – Modes, Effects and Reunion", subTopics: [sub("Partition – Modes, Effects and Reunion", false, "14th May, 2026")] },
-          { topicName: "General Introduction and Application of Hindu Succession Act, 1956", subTopics: [sub("General Introduction and Application of Hindu Succession Act, 1956", false, "14th May, 2026")] },
-          { topicName: "Succession to Property of Male Intestate", subTopics: [sub("Succession to Property of Male Intestate", false, "14th May, 2026")] },
-          { topicName: "Succession to Property of Female Intestate", subTopics: [sub("Succession to Property of Female Intestate", false, "14th May, 2026")] },
-          { topicName: "Hindu Women's Estate and Stridhan", subTopics: [sub("Hindu Women's Estate and Stridhan", false, "14th May, 2026")] },
-          { topicName: "Law Relating to Gifts under Hindu Law", subTopics: [sub("Law Relating to Gifts under Hindu Law", false, "14th May, 2026")] },
-          { topicName: "Law Relating to Wills and Testamentary Succession", subTopics: [sub("Law Relating to Wills and Testamentary Succession", false, "14th May, 2026")] },
-          { topicName: "Muslim Personal Law – Inheritance and Succession", subTopics: [sub("Muslim Personal Law – Inheritance and Succession", false, "14th May, 2026")] },
-        ],
-      },
+      // {
+      //   id: "lb202",
+      //   courseName: "Family Law 2 (LB-202)",
+      //   instructor: "Beauty Gupta and Imama",
+      //   price: "299",
+      //   lastUpdated: "14th May 2026",
+      //   language: "English with conversational Hindi",
+      //   accessibleTill: "30th September, 2026",
+      //   img: "https://images.unsplash.com/photo-1536640712-4d4c36ff0e4e?w=400&h=250&fit=crop",
+      //   authorBio:
+      //     "We provide top quality semester preparation content specially designed for law students. This course covers Hindu personal law, succession, and family law with concise notes and solved PYQs.",
+      //   contents: [
+      //     { topicName: "Joint Hindu Family and Hindu Coparcenary [Free Preview]", subTopics: [sub("Joint Hindu Family and Hindu Coparcenary", true, "14th May, 2026")] },
+      //     { topicName: "Karta – Position, Powers and Liabilities", subTopics: [sub("Karta – Position, Powers and Liabilities", false, "14th May, 2026")] },
+      //     { topicName: "Alienation of Joint Hindu Family Property", subTopics: [sub("Alienation of Joint Hindu Family Property", false, "14th May, 2026")] },
+      //     { topicName: "Partition – Modes, Effects and Reunion", subTopics: [sub("Partition – Modes, Effects and Reunion", false, "14th May, 2026")] },
+      //     { topicName: "General Introduction and Application of Hindu Succession Act, 1956", subTopics: [sub("General Introduction and Application of Hindu Succession Act, 1956", false, "14th May, 2026")] },
+      //     { topicName: "Succession to Property of Male Intestate", subTopics: [sub("Succession to Property of Male Intestate", false, "14th May, 2026")] },
+      //     { topicName: "Succession to Property of Female Intestate", subTopics: [sub("Succession to Property of Female Intestate", false, "14th May, 2026")] },
+      //     { topicName: "Hindu Women's Estate and Stridhan", subTopics: [sub("Hindu Women's Estate and Stridhan", false, "14th May, 2026")] },
+      //     { topicName: "Law Relating to Gifts under Hindu Law", subTopics: [sub("Law Relating to Gifts under Hindu Law", false, "14th May, 2026")] },
+      //     { topicName: "Law Relating to Wills and Testamentary Succession", subTopics: [sub("Law Relating to Wills and Testamentary Succession", false, "14th May, 2026")] },
+      //     { topicName: "Muslim Personal Law – Inheritance and Succession", subTopics: [sub("Muslim Personal Law – Inheritance and Succession", false, "14th May, 2026")] },
+      //   ],
+      // },
 
       /* LB-203 ─ Law of Crimes II */
       {
@@ -152,30 +152,30 @@ const courses = [
       },
 
       /* LB-204 ─ Property Law */
-      {
-        id: "lb204",
-        courseName: "Property Law (LB-204)",
-        instructor: "Saumya Sharma",
-        price: "299",
-        lastUpdated: "14th May, 2026",
-        language: "English with conversational Hindi",
-        accessibleTill: "30th September, 2026",
-        img: "https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=400&h=250&fit=crop",
-        authorBio:
-          "We provide top quality semester preparation content specially designed for law students. This course covers the Transfer of Property Act in detail with exam-focused notes and solved PYQs.",
-        contents: [
-          { topicName: "General Principles – Transfer of Property Act, 1882 [Free Preview]", subTopics: [sub("General Principles – Transfer of Property Act, 1882", true, "14th May, 2026")] },
-          { topicName: "Transfer by Ostensible Owner and Doctrine of Election", subTopics: [sub("Transfer by Ostensible Owner and Doctrine of Election", false, "14th May, 2026")] },
-          { topicName: "Conditions Restraining Transfer – Absolute and Partial Restraints", subTopics: [sub("Conditions Restraining Transfer – Absolute and Partial Restraints", false, "14th May, 2026")] },
-          { topicName: "Vested and Contingent Interests, Rule Against Perpetuity", subTopics: [sub("Vested and Contingent Interests, Rule Against Perpetuity", false, "14th May, 2026")] },
-          { topicName: "Lis Pendens and Fraudulent Transfers", subTopics: [sub("Lis Pendens and Fraudulent Transfers", false, "14th May, 2026")] },
-          { topicName: "Part Performance (Section 53A)", subTopics: [sub("Part Performance (Section 53A)", false, "14th May, 2026")] },
-          { topicName: "Sale of Immovable Property – Rights and Liabilities", subTopics: [sub("Sale of Immovable Property – Rights and Liabilities", false, "14th May, 2026")] },
-          { topicName: "Mortgages – Kinds, Rights of Mortgagor and Mortgagee", subTopics: [sub("Mortgages – Kinds, Rights of Mortgagor and Mortgagee", false, "14th May, 2026")] },
-          { topicName: "Leases of Immovable Property – Rights and Liabilities", subTopics: [sub("Leases of Immovable Property – Rights and Liabilities", false, "14th May, 2026")] },
-          { topicName: "Exchange and Gift of Immovable Property", subTopics: [sub("Exchange and Gift of Immovable Property", false, "14th May, 2026")] },
-        ],
-      },
+      // {
+      //   id: "lb204",
+      //   courseName: "Property Law (LB-204)",
+      //   instructor: "Saumya Sharma",
+      //   price: "299",
+      //   lastUpdated: "14th May, 2026",
+      //   language: "English with conversational Hindi",
+      //   accessibleTill: "30th September, 2026",
+      //   img: "https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=400&h=250&fit=crop",
+      //   authorBio:
+      //     "We provide top quality semester preparation content specially designed for law students. This course covers the Transfer of Property Act in detail with exam-focused notes and solved PYQs.",
+      //   contents: [
+      //     { topicName: "General Principles – Transfer of Property Act, 1882 [Free Preview]", subTopics: [sub("General Principles – Transfer of Property Act, 1882", true, "14th May, 2026")] },
+      //     { topicName: "Transfer by Ostensible Owner and Doctrine of Election", subTopics: [sub("Transfer by Ostensible Owner and Doctrine of Election", false, "14th May, 2026")] },
+      //     { topicName: "Conditions Restraining Transfer – Absolute and Partial Restraints", subTopics: [sub("Conditions Restraining Transfer – Absolute and Partial Restraints", false, "14th May, 2026")] },
+      //     { topicName: "Vested and Contingent Interests, Rule Against Perpetuity", subTopics: [sub("Vested and Contingent Interests, Rule Against Perpetuity", false, "14th May, 2026")] },
+      //     { topicName: "Lis Pendens and Fraudulent Transfers", subTopics: [sub("Lis Pendens and Fraudulent Transfers", false, "14th May, 2026")] },
+      //     { topicName: "Part Performance (Section 53A)", subTopics: [sub("Part Performance (Section 53A)", false, "14th May, 2026")] },
+      //     { topicName: "Sale of Immovable Property – Rights and Liabilities", subTopics: [sub("Sale of Immovable Property – Rights and Liabilities", false, "14th May, 2026")] },
+      //     { topicName: "Mortgages – Kinds, Rights of Mortgagor and Mortgagee", subTopics: [sub("Mortgages – Kinds, Rights of Mortgagor and Mortgagee", false, "14th May, 2026")] },
+      //     { topicName: "Leases of Immovable Property – Rights and Liabilities", subTopics: [sub("Leases of Immovable Property – Rights and Liabilities", false, "14th May, 2026")] },
+      //     { topicName: "Exchange and Gift of Immovable Property", subTopics: [sub("Exchange and Gift of Immovable Property", false, "14th May, 2026")] },
+      //   ],
+      // },
 
       /* LB-205 ─ Public International Law */
       {
@@ -398,58 +398,100 @@ const courses = [
       },
 
       /* LB-402 ─ Administrative Law */
-      {
-        id: "lb402",
-        courseName: "Administrative Law (LB-402)",
-        instructor: "Priya Kapoor",
-        price: "299",
-        lastUpdated: "14th May 2026",
-        language: "English with conversational Hindi",
-        accessibleTill: "30th September, 2026",
-        img: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=400&h=250&fit=crop",
-        authorBio:
-          "We provide top quality semester preparation content specially designed for law students. This course covers administrative law doctrines, writs and judicial review with concise notes and solved PYQs.",
-        contents: [
-          { topicName: "Nature, Scope and Development of Administrative Law [Free Preview]", subTopics: [sub("Nature, Scope and Development of Administrative Law", true, "14th May, 2026")] },
-          { topicName: "Separation of Powers – Theory and Its Application in India", subTopics: [sub("Separation of Powers – Theory and Its Application in India", false, "14th May, 2026")] },
-          { topicName: "Delegated Legislation – Kinds, Control and Validity", subTopics: [sub("Delegated Legislation – Kinds, Control and Validity", false, "14th May, 2026")] },
-          { topicName: "Natural Justice – Audi Alteram Partem", subTopics: [sub("Natural Justice – Audi Alteram Partem", false, "14th May, 2026")] },
-          { topicName: "Natural Justice – Nemo Judex in Causa Sua", subTopics: [sub("Natural Justice – Nemo Judex in Causa Sua", false, "14th May, 2026")] },
-          { topicName: "Judicial Control of Administrative Action", subTopics: [sub("Judicial Control of Administrative Action", false, "14th May, 2026")] },
-          { topicName: "Writs – Certiorari, Mandamus, Prohibition, Quo Warranto, Habeas Corpus", subTopics: [sub("Writs – Certiorari, Mandamus, Prohibition, Quo Warranto, Habeas Corpus", false, "14th May, 2026")] },
-          { topicName: "Administrative Tribunals in India", subTopics: [sub("Administrative Tribunals in India", false, "14th May, 2026")] },
-          { topicName: "Liability of the State in Tort and Contract", subTopics: [sub("Liability of the State in Tort and Contract", false, "14th May, 2026")] },
-          { topicName: "Public Interest Litigation and Lokpal", subTopics: [sub("Public Interest Litigation and Lokpal", false, "14th May, 2026")] },
-        ],
-      },
+      // {
+      //   id: "lb402",
+      //   courseName: "Administrative Law (LB-402)",
+      //   instructor: "Priya Kapoor",
+      //   price: "299",
+      //   lastUpdated: "14th May 2026",
+      //   language: "English with conversational Hindi",
+      //   accessibleTill: "30th September, 2026",
+      //   img: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=400&h=250&fit=crop",
+      //   authorBio:
+      //     "We provide top quality semester preparation content specially designed for law students. This course covers administrative law doctrines, writs and judicial review with concise notes and solved PYQs.",
+      //   contents: [
+      //     { topicName: "Nature, Scope and Development of Administrative Law [Free Preview]", subTopics: [sub("Nature, Scope and Development of Administrative Law", true, "14th May, 2026")] },
+      //     { topicName: "Separation of Powers – Theory and Its Application in India", subTopics: [sub("Separation of Powers – Theory and Its Application in India", false, "14th May, 2026")] },
+      //     { topicName: "Delegated Legislation – Kinds, Control and Validity", subTopics: [sub("Delegated Legislation – Kinds, Control and Validity", false, "14th May, 2026")] },
+      //     { topicName: "Natural Justice – Audi Alteram Partem", subTopics: [sub("Natural Justice – Audi Alteram Partem", false, "14th May, 2026")] },
+      //     { topicName: "Natural Justice – Nemo Judex in Causa Sua", subTopics: [sub("Natural Justice – Nemo Judex in Causa Sua", false, "14th May, 2026")] },
+      //     { topicName: "Judicial Control of Administrative Action", subTopics: [sub("Judicial Control of Administrative Action", false, "14th May, 2026")] },
+      //     { topicName: "Writs – Certiorari, Mandamus, Prohibition, Quo Warranto, Habeas Corpus", subTopics: [sub("Writs – Certiorari, Mandamus, Prohibition, Quo Warranto, Habeas Corpus", false, "14th May, 2026")] },
+      //     { topicName: "Administrative Tribunals in India", subTopics: [sub("Administrative Tribunals in India", false, "14th May, 2026")] },
+      //     { topicName: "Liability of the State in Tort and Contract", subTopics: [sub("Liability of the State in Tort and Contract", false, "14th May, 2026")] },
+      //     { topicName: "Public Interest Litigation and Lokpal", subTopics: [sub("Public Interest Litigation and Lokpal", false, "14th May, 2026")] },
+      //   ],
+      // },
 
       /* LB-403 ─ Labour Law */
-      {
-        id: "lb403",
+      // {
+      //   id: "lb403",
+      //   courseName: "Labour Law (LB-403)",
+      //   instructor: "Deepak Malhotra",
+      //   price: "299",
+      //   lastUpdated: "14th May 2026",
+      //   language: "English with conversational Hindi",
+      //   accessibleTill: "30th September, 2026",
+      //   img: "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=400&h=250&fit=crop",
+      //   authorBio:
+      //     "We provide top quality semester preparation content specially designed for law students. This course simplifies industrial legislation for DU LLB students with focused video lectures and notes.",
+      //   contents: [
+      //     { topicName: "Industrial Disputes Act, 1947 – Scope, Application and Definitions [Free Preview]", subTopics: [sub("Industrial Disputes Act, 1947 – Scope, Application and Definitions", true, "14th May, 2026")] },
+      //     { topicName: "Industry, Workman and Industrial Dispute – Key Definitions", subTopics: [sub("Industry, Workman and Industrial Dispute – Key Definitions", false, "14th May, 2026")] },
+      //     { topicName: "Strikes, Lockouts and Lay-offs", subTopics: [sub("Strikes, Lockouts and Lay-offs", false, "14th May, 2026")] },
+      //     { topicName: "Retrenchment, Closure and Transfer of Undertaking", subTopics: [sub("Retrenchment, Closure and Transfer of Undertaking", false, "14th May, 2026")] },
+      //     { topicName: "Trade Unions Act, 1926 – Registration, Rights and Immunities", subTopics: [sub("Trade Unions Act, 1926 – Registration, Rights and Immunities", false, "14th May, 2026")] },
+      //     { topicName: "Contract Labour (Regulation and Abolition) Act, 1970", subTopics: [sub("Contract Labour (Regulation and Abolition) Act, 1970", false, "14th May, 2026")] },
+      //     { topicName: "Minimum Wages Act, 1948 – Fixation and Revision", subTopics: [sub("Minimum Wages Act, 1948 – Fixation and Revision", false, "14th May, 2026")] },
+      //     { topicName: "Payment of Wages Act, 1936 – Provisions and Deductions", subTopics: [sub("Payment of Wages Act, 1936 – Provisions and Deductions", false, "14th May, 2026")] },
+      //     { topicName: "Employees' Provident Fund and Miscellaneous Provisions Act, 1952", subTopics: [sub("Employees' Provident Fund and Miscellaneous Provisions Act, 1952", false, "14th May, 2026")] },
+      //     { topicName: "Maternity Benefit Act, 1961 and Equal Remuneration Act, 1976", subTopics: [sub("Maternity Benefit Act, 1961 and Equal Remuneration Act, 1976", false, "14th May, 2026")] },
+      //   ],
+      // },
+{
+        id: "labour_law",
         courseName: "Labour Law (LB-403)",
-        instructor: "Deepak Malhotra",
+        instructor: "Swati Duggal",
         price: "299",
-        lastUpdated: "14th May 2026",
+        lastUpdated: "18th May, 2026",
         language: "English with conversational Hindi",
-        accessibleTill: "30th September, 2026",
-        img: "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=400&h=250&fit=crop",
+        accessibleTill: "30th September 2026",
+        img:"https://images.unsplash.com/photo-1521791136064-7986c2920216?w=400&h=250&fit=crop",
         authorBio:
-          "We provide top quality semester preparation content specially designed for law students. This course simplifies industrial legislation for DU LLB students with focused video lectures and notes.",
+          "Swati Duggal is an Advocate, Legal Educator, and Ph.D. Scholar with over 8 years of experience in litigation and academia. Specializing in corporate, labour, and criminal law, she has taught diverse law subjects and actively practices before courts and tribunals. She is also a certified POSH trainer with expertise in legal research, drafting, and dispute resolution.",
         contents: [
-          { topicName: "Industrial Disputes Act, 1947 – Scope, Application and Definitions [Free Preview]", subTopics: [sub("Industrial Disputes Act, 1947 – Scope, Application and Definitions", true, "14th May, 2026")] },
-          { topicName: "Industry, Workman and Industrial Dispute – Key Definitions", subTopics: [sub("Industry, Workman and Industrial Dispute – Key Definitions", false, "14th May, 2026")] },
-          { topicName: "Strikes, Lockouts and Lay-offs", subTopics: [sub("Strikes, Lockouts and Lay-offs", false, "14th May, 2026")] },
-          { topicName: "Retrenchment, Closure and Transfer of Undertaking", subTopics: [sub("Retrenchment, Closure and Transfer of Undertaking", false, "14th May, 2026")] },
-          { topicName: "Trade Unions Act, 1926 – Registration, Rights and Immunities", subTopics: [sub("Trade Unions Act, 1926 – Registration, Rights and Immunities", false, "14th May, 2026")] },
-          { topicName: "Contract Labour (Regulation and Abolition) Act, 1970", subTopics: [sub("Contract Labour (Regulation and Abolition) Act, 1970", false, "14th May, 2026")] },
-          { topicName: "Minimum Wages Act, 1948 – Fixation and Revision", subTopics: [sub("Minimum Wages Act, 1948 – Fixation and Revision", false, "14th May, 2026")] },
-          { topicName: "Payment of Wages Act, 1936 – Provisions and Deductions", subTopics: [sub("Payment of Wages Act, 1936 – Provisions and Deductions", false, "14th May, 2026")] },
-          { topicName: "Employees' Provident Fund and Miscellaneous Provisions Act, 1952", subTopics: [sub("Employees' Provident Fund and Miscellaneous Provisions Act, 1952", false, "14th May, 2026")] },
-          { topicName: "Maternity Benefit Act, 1961 and Equal Remuneration Act, 1976", subTopics: [sub("Maternity Benefit Act, 1961 and Equal Remuneration Act, 1976", false, "14th May, 2026")] },
+          { topicName: "Introduction to Labour Law", subTopics: [sub("Introduction to Labour Law", false, "18th May, 2026", "https://drive.google.com/file/d/1AhXeJEF6_xod6pUh_BcdOLNoUfwy3Uz7/view?usp=drive_link")] },
+          { topicName: "Trade Union – Definition, Registration and Recognition", subTopics: [sub("Trade Union – Definition, Registration and Recognition", false, "18th May, 2026", "https://drive.google.com/file/d/1IjWeZhDpgg4mmoJigl-zYeLm75TTNvTk/view?usp=drive_link")] },
+          { topicName: "Immunities – Criminal and Civil & Funds", subTopics: [sub("Immunities – Criminal and Civil & Funds", false, "18th May, 2026", "https://drive.google.com/file/d/1OTiDqzND7OPr1IS5ofG0FGjPSEV3eoVW/view?usp=drive_link")] },
+          { topicName: "‘Industry’ – Conceptual Analysis", subTopics: [
+              sub("‘Industry’ – Conceptual Analysis (Part 1)", false, "18th May, 2026", "https://drive.google.com/file/d/1ttwSVoKYlWja7d5hz6MApoKtJsGYi7gz/view?usp=drive_link"),
+              sub("‘Industry’ – Conceptual Analysis (Part 2)", false, "18th May, 2026", "https://drive.google.com/file/d/175BwEB6AzlsXBUtjTEwEy80GNrg9UbwN/view?usp=drive_link")
+            ]
+          },
+          { topicName: "‘Industrial Dispute’ v. ‘Individual Dispute’ – Contrast", subTopics: [sub("‘Industrial Dispute’ v. ‘Individual Dispute’ – Contrast", false, "18th May, 2026", "https://drive.google.com/file/d/1mxuR3zRuOM8PIyq-HuxtZf8I4jJ-xDfE/view?usp=drive_link")] },
+          { topicName: "Concept of ‘Workman’ & ‘Employee’", subTopics: [
+              sub("Concept of ‘Workman’ & ‘Employee’ (Part 1)", false, "18th May, 2026", "https://drive.google.com/file/d/1scKd74nhW6wYLZ0a2m5QXN5W3L-Bpls2/view?usp=drive_link"),
+              sub("Concept of ‘Workman’ & ‘Employee’ (Part 2)", false, "18th May, 2026", "https://drive.google.com/file/d/1rz9DMeyJxCF_jw0W2eq3T_yIz8dEFvn_/view?usp=drive_link")
+            ]
+          },
+          { topicName: "‘Strike & Lock out’", subTopics: [
+              sub("‘Strike & Lock out’ (Part 1)", false, "18th May, 2026", "https://drive.google.com/file/d/18V_oLXuWKVHWoL2yhVXAlE5WDwbB8PiD/view?usp=drive_link"),
+              sub("‘Strike & Lock out’ (Part 2)", false, "18th May, 2026", "https://drive.google.com/file/d/1diXN1oJmZVO18-BdTSNaCS8qlwiPvVtL/view?usp=drive_link")
+            ]
+          },
+          { topicName: "Standing Orders", subTopics: [sub("Standing Orders", false, "18th May, 2026", "https://drive.google.com/file/d/1oCZnXf9tmFPkTwcpeh0sAzx4ygGT7ZZN/view?usp=drive_link")] },
+          { topicName: "Lay off", subTopics: [sub("Lay off", false, "18th May, 2026", "https://drive.google.com/file/d/18NTADZl051j6_Uvhz0YE-WFOzYwGLlHg/view?usp=drive_link")] },
+          { topicName: "Retrenchment", subTopics: [sub("Retrenchment", false, "18th May, 2026", "https://drive.google.com/file/d/1hMOhItxNOb4D2pe8j7EzqwPnZagDZKju/view?usp=drive_link")] },
+          { topicName: "Closure", subTopics: [sub("Closure", false, "18th May, 2026", "https://drive.google.com/file/d/1TcQldFtN76lyJs_1bqT2GgI2xiq1MFDc/view?usp=drive_link")] },
+          { topicName: "THE OCCUPATIONAL SAFETY, HEALTH AND WORKING CONDITIONS CODE, 2020", subTopics: [
+              sub("THE OCCUPATIONAL SAFETY, HEALTH AND WORKING CONDITIONS CODE, 2020 (Part 1)", false, "18th May, 2026", "https://drive.google.com/file/d/1pf7oFwgPdL_RZ7ditDyUfrm9A3pFmPL0/view?usp=drive_link"),
+              sub("THE OCCUPATIONAL SAFETY, HEALTH AND WORKING CONDITIONS CODE, 2020 (Part 2)", false, "18th May, 2026", "https://drive.google.com/file/d/17XDNTXDEgLszQnlu53TLfrRcgFzA7RjX/view?usp=drive_link")
+            ]
+          },
         ],
       },
-
-      /* LB-4031 ─ Gender Justice */
+   
+      // /* LB-4031 ─ Gender Justice */
       // {
       //   id: "lb4031",
       //   courseName: "Gender Justice & Feminist Jurisprudence (LB-4031)",
@@ -475,56 +517,56 @@ const courses = [
       // },
 
       /* LB-4033 ─ Competition Law */
-      {
-        id: "lb4033",
-        courseName: "Competition Law | 2023 (LB-4033)",
-        instructor: "Arjun Bhatia",
-        price: "299",
-        lastUpdated: "14th May, 2026",
-        language: "English with conversational Hindi",
-        accessibleTill: "30th September, 2026",
-        img: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=400&h=250&fit=crop",
-        authorBio:
-          "We provide top quality semester preparation content specially designed for law students. This course covers Competition Act 2002 including the 2023 amendments with case-based study material.",
-        contents: [
-          { topicName: "Overview of Competition Law – MRTP to CCI [Free Preview]", subTopics: [sub("Overview of Competition Law – MRTP to CCI", true, "14th May, 2026")] },
-          { topicName: "Competition Act, 2002 – Objectives, Applicability and Definitions", subTopics: [sub("Competition Act, 2002 – Objectives, Applicability and Definitions", false, "14th May, 2026")] },
-          { topicName: "Anti-Competitive Agreements – Section 3 (Horizontal and Vertical)", subTopics: [sub("Anti-Competitive Agreements – Section 3 (Horizontal and Vertical)", false, "14th May, 2026")] },
-          { topicName: "Abuse of Dominant Position – Section 4", subTopics: [sub("Abuse of Dominant Position – Section 4", false, "14th May, 2026")] },
-          { topicName: "Combinations – Mergers and Acquisitions (Sections 5 & 6)", subTopics: [sub("Combinations – Mergers and Acquisitions (Sections 5 & 6)", false, "14th May, 2026")] },
-          { topicName: "Competition Commission of India – Powers and Procedure", subTopics: [sub("Competition Commission of India – Powers and Procedure", false, "14th May, 2026")] },
-          { topicName: "Penalties, Leniency Programme and Enforcement", subTopics: [sub("Penalties, Leniency Programme and Enforcement", false, "14th May, 2026")] },
-          { topicName: "Competition Law and Intellectual Property Rights Interface", subTopics: [sub("Competition Law and Intellectual Property Rights Interface", false, "14th May, 2026")] },
-          { topicName: "Competition (Amendment) Act, 2023 – Key Changes", subTopics: [sub("Competition (Amendment) Act, 2023 – Key Changes", false, "14th May, 2026")] },
-        ],
-      },
+      // {
+      //   id: "lb4033",
+      //   courseName: "Competition Law | 2023 (LB-4033)",
+      //   instructor: "Arjun Bhatia",
+      //   price: "299",
+      //   lastUpdated: "14th May, 2026",
+      //   language: "English with conversational Hindi",
+      //   accessibleTill: "30th September, 2026",
+      //   img: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=400&h=250&fit=crop",
+      //   authorBio:
+      //     "We provide top quality semester preparation content specially designed for law students. This course covers Competition Act 2002 including the 2023 amendments with case-based study material.",
+      //   contents: [
+      //     { topicName: "Overview of Competition Law – MRTP to CCI [Free Preview]", subTopics: [sub("Overview of Competition Law – MRTP to CCI", true, "14th May, 2026")] },
+      //     { topicName: "Competition Act, 2002 – Objectives, Applicability and Definitions", subTopics: [sub("Competition Act, 2002 – Objectives, Applicability and Definitions", false, "14th May, 2026")] },
+      //     { topicName: "Anti-Competitive Agreements – Section 3 (Horizontal and Vertical)", subTopics: [sub("Anti-Competitive Agreements – Section 3 (Horizontal and Vertical)", false, "14th May, 2026")] },
+      //     { topicName: "Abuse of Dominant Position – Section 4", subTopics: [sub("Abuse of Dominant Position – Section 4", false, "14th May, 2026")] },
+      //     { topicName: "Combinations – Mergers and Acquisitions (Sections 5 & 6)", subTopics: [sub("Combinations – Mergers and Acquisitions (Sections 5 & 6)", false, "14th May, 2026")] },
+      //     { topicName: "Competition Commission of India – Powers and Procedure", subTopics: [sub("Competition Commission of India – Powers and Procedure", false, "14th May, 2026")] },
+      //     { topicName: "Penalties, Leniency Programme and Enforcement", subTopics: [sub("Penalties, Leniency Programme and Enforcement", false, "14th May, 2026")] },
+      //     { topicName: "Competition Law and Intellectual Property Rights Interface", subTopics: [sub("Competition Law and Intellectual Property Rights Interface", false, "14th May, 2026")] },
+      //     { topicName: "Competition (Amendment) Act, 2023 – Key Changes", subTopics: [sub("Competition (Amendment) Act, 2023 – Key Changes", false, "14th May, 2026")] },
+      //   ],
+      // },
 
       /* LB-4036 ─ IPR Law I */
-      {
-        id: "lb4036",
-        courseName: "Intellectual Property Rights Law - I (LB-4036)",
-        instructor: "Tanya Walia",
-        price: "299",
-        lastUpdated: "14th May, 2026",
-        language: "English with conversational Hindi",
-        accessibleTill: "30th September, 2026",
-        img: "https://images.unsplash.com/photo-1485217988980-11786ced9454?w=400&h=250&fit=crop",
-        authorBio:
-          "We provide top quality semester preparation content specially designed for law students. This course covers Copyright and Trademark law with detailed notes, case summaries and solved PYQs.",
-        contents: [
-          { topicName: "Overview of Intellectual Property Rights – TRIPS Agreement [Free Preview]", subTopics: [sub("Overview of Intellectual Property Rights – TRIPS Agreement", true, "14th May, 2026")] },
-          { topicName: "Copyright Law – Berne Convention and Copyright Act, 1957", subTopics: [sub("Copyright Law – Berne Convention and Copyright Act, 1957", false, "14th May, 2026")] },
-          { topicName: "Original Works, Authorship and Ownership of Copyright", subTopics: [sub("Original Works, Authorship and Ownership of Copyright", false, "14th May, 2026")] },
-          { topicName: "Economic Rights and Moral Rights of Authors", subTopics: [sub("Economic Rights and Moral Rights of Authors", false, "14th May, 2026")] },
-          { topicName: "Copyright Infringement, Fair Dealing and Remedies", subTopics: [sub("Copyright Infringement, Fair Dealing and Remedies", false, "14th May, 2026")] },
-          { topicName: "Trade Marks Act, 1999 – Definition, Kinds and Functions", subTopics: [sub("Trade Marks Act, 1999 – Definition, Kinds and Functions", false, "14th May, 2026")] },
-          { topicName: "Registration and Protection of Trademarks", subTopics: [sub("Registration and Protection of Trademarks", false, "14th May, 2026")] },
-          { topicName: "Passing Off, Infringement and Remedies under Trade Marks Act", subTopics: [sub("Passing Off, Infringement and Remedies under Trade Marks Act", false, "14th May, 2026")] },
-          { topicName: "Geographical Indications and Plant Variety Protection", subTopics: [sub("Geographical Indications and Plant Variety Protection", false, "14th May, 2026")] },
-        ],
-      },
-    ],
-  },
+  //     {
+  //       id: "lb4036",
+  //       courseName: "Intellectual Property Rights Law - I (LB-4036)",
+  //       instructor: "Tanya Walia",
+  //       price: "299",
+  //       lastUpdated: "14th May, 2026",
+  //       language: "English with conversational Hindi",
+  //       accessibleTill: "30th September, 2026",
+  //       img: "https://images.unsplash.com/photo-1485217988980-11786ced9454?w=400&h=250&fit=crop",
+  //       authorBio:
+  //         "We provide top quality semester preparation content specially designed for law students. This course covers Copyright and Trademark law with detailed notes, case summaries and solved PYQs.",
+  //       contents: [
+  //         { topicName: "Overview of Intellectual Property Rights – TRIPS Agreement [Free Preview]", subTopics: [sub("Overview of Intellectual Property Rights – TRIPS Agreement", true, "14th May, 2026")] },
+  //         { topicName: "Copyright Law – Berne Convention and Copyright Act, 1957", subTopics: [sub("Copyright Law – Berne Convention and Copyright Act, 1957", false, "14th May, 2026")] },
+  //         { topicName: "Original Works, Authorship and Ownership of Copyright", subTopics: [sub("Original Works, Authorship and Ownership of Copyright", false, "14th May, 2026")] },
+  //         { topicName: "Economic Rights and Moral Rights of Authors", subTopics: [sub("Economic Rights and Moral Rights of Authors", false, "14th May, 2026")] },
+  //         { topicName: "Copyright Infringement, Fair Dealing and Remedies", subTopics: [sub("Copyright Infringement, Fair Dealing and Remedies", false, "14th May, 2026")] },
+  //         { topicName: "Trade Marks Act, 1999 – Definition, Kinds and Functions", subTopics: [sub("Trade Marks Act, 1999 – Definition, Kinds and Functions", false, "14th May, 2026")] },
+  //         { topicName: "Registration and Protection of Trademarks", subTopics: [sub("Registration and Protection of Trademarks", false, "14th May, 2026")] },
+  //         { topicName: "Passing Off, Infringement and Remedies under Trade Marks Act", subTopics: [sub("Passing Off, Infringement and Remedies under Trade Marks Act", false, "14th May, 2026")] },
+  //         { topicName: "Geographical Indications and Plant Variety Protection", subTopics: [sub("Geographical Indications and Plant Variety Protection", false, "14th May, 2026")] },
+  //       ],
+  //     },
+     ],
+   },
 
   /* ════════════════════════════════
      6th TERM
@@ -829,25 +871,23 @@ const courses = [
       {
         id: "lb602",
         courseName: "Alternative Dispute Resolution (LB-602)",
-        instructor: "Kartik sharma",
+        instructor: "Bhairavi",
         price: "299",
-        lastUpdated: "14th May, 2026",
+        lastUpdated: "18th May, 2026",
         language: "English with conversational Hindi",
         accessibleTill: "30th September, 2026",
         img: "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=400&h=250&fit=crop",
         authorBio:
-          "We provide top quality semester preparation content specially designed for law students. This course covers arbitration, mediation and Lok Adalat with practical insights and solved PYQs.",
+          "She is a legal professional with an LL.M. in Business Law from National Law University, Delhi, and a B.A. LL.B. from GGSIPU, New Delhi. With experience across litigation, arbitration, corporate law, and policy research, she specializes in legal writing, data protection, compliance, and legal technology, supported by multiple certifications and published research.",
         contents: [
-          { topicName: "Introduction to ADR – Concept, Need and Historical Development [Free Preview]", subTopics: [sub("Introduction to ADR – Concept, Need and Historical Development", true, "14th May, 2026")] },
-          { topicName: "Arbitration and Conciliation Act, 1996 – Overview and Scope", subTopics: [sub("Arbitration and Conciliation Act, 1996 – Overview and Scope", false, "14th May, 2026")] },
-          { topicName: "Arbitration Agreement – Definition, Kinds and Validity", subTopics: [sub("Arbitration Agreement – Definition, Kinds and Validity", false, "14th May, 2026")] },
-          { topicName: "Appointment, Jurisdiction and Challenge of Arbitrators", subTopics: [sub("Appointment, Jurisdiction and Challenge of Arbitrators", false, "14th May, 2026")] },
-          { topicName: "Conduct of Arbitral Proceedings and Arbitral Award", subTopics: [sub("Conduct of Arbitral Proceedings and Arbitral Award", false, "14th May, 2026")] },
-          { topicName: "Enforcement and Setting Aside of Domestic Arbitral Awards", subTopics: [sub("Enforcement and Setting Aside of Domestic Arbitral Awards", false, "14th May, 2026")] },
-          { topicName: "International Commercial Arbitration and Foreign Awards", subTopics: [sub("International Commercial Arbitration and Foreign Awards", false, "14th May, 2026")] },
-          { topicName: "Conciliation and Mediation Act, 2023", subTopics: [sub("Conciliation and Mediation Act, 2023", false, "14th May, 2026")] },
-          { topicName: "Lok Adalat System – Legal Services Authorities Act, 1987", subTopics: [sub("Lok Adalat System – Legal Services Authorities Act, 1987", false, "14th May, 2026")] },
-          { topicName: "Online Dispute Resolution (ODR) – Technology and Future", subTopics: [sub("Online Dispute Resolution (ODR) – Technology and Future", false, "14th May, 2026")] },
+          { topicName: "PYQ lecture 1 (free)", subTopics: [sub("PYQ lecture 1", true, "18th May, 2026", "https://drive.google.com/file/d/1BaMzRnkDc8LzlzajT7iOl_vehJf49N-i/view?usp=drive_link")] },
+          { topicName: "PYQ lecture 2", subTopics: [sub("PYQ lecture 2", false, "18th May, 2026", "https://drive.google.com/file/d/1ymetPI5IyTzGqwJ4Wmb2tXX20fIdxalF/view?usp=drive_link")] },
+          { topicName: "PYQ lecture 3", subTopics: [sub("PYQ lecture 3", false, "18th May, 2026", "https://drive.google.com/file/d/1PCPgPqpN-N_sGOKnUHvVBrAarCim6FXb/view?usp=drive_link")] },
+          { topicName: "PYQ lecture 4 (free)", subTopics: [sub("PYQ lecture 4", true, "18th May, 2026", "https://drive.google.com/file/d/1zNPlT49URXHOP9MByTb1AxMapOgmzHXL/view?usp=drive_link")] },
+          { topicName: "PYQ lecture 5", subTopics: [sub("PYQ lecture 5", false, "18th May, 2026", "https://drive.google.com/file/d/1-WC79BQZu8r8fbuSL_4plgvKafsH8h18/view?usp=drive_link")] },
+          { topicName: "PYQ lecture 6", subTopics: [sub("PYQ lecture 6", false, "18th May, 2026", "https://drive.google.com/file/d/1uxNdc7C10scVoyseVZFBouNKg5VXQGFt/view?usp=drive_link")] },
+          { topicName: "PYQ lecture 7", subTopics: [sub("PYQ lecture 7", false, "18th May, 2026", "https://drive.google.com/file/d/1F3T9dRHNFptxRXPtqaDJ9HVa_FcxEI2k/view?usp=drive_link")] },
+          { topicName: "PYQ lecture 8", subTopics: [sub("PYQ lecture 8", false, "18th May, 2026", "https://drive.google.com/file/d/1z3_N3-wo2NBIdBHNHUxKewMy4CNOT-x1/view?usp=drive_link")] },
         ],
       },
 
@@ -855,7 +895,7 @@ const courses = [
       {
         id: "lb603",
         courseName: "Environmental Law (LB-603)",
-        instructor: "Kavita Joshi",
+        instructor: "Varsha Dwivedi",
         price: "299",
         lastUpdated: "14th May, 2026",
         language: "English with conversational Hindi",
@@ -878,30 +918,30 @@ const courses = [
       },
 
       /* LB-604 ─ Taxation */
-      {
-        id: "lb604",
-        courseName: "Principles of Taxation Law (LB-604)",
-        instructor: "Rohit Verma",
-        price: "299",
-        lastUpdated: "14th May, 2026",
-        language: "English with conversational Hindi",
-        accessibleTill: "30th September, 2026",
-        img: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=400&h=250&fit=crop",
-        authorBio:
-          "We provide top quality semester preparation content specially designed for law students. This course makes taxation law accessible with no prior accounting knowledge required and solved PYQs.",
-        contents: [
-          { topicName: "Constitutional Framework of Taxation in India [Free Preview]", subTopics: [sub("Constitutional Framework of Taxation in India", true, "14th May, 2026")] },
-          { topicName: "Income Tax Act, 1961 – Basic Concepts, Person, Assessee, Income", subTopics: [sub("Income Tax Act, 1961 – Basic Concepts, Person, Assessee, Income", false, "14th May, 2026")] },
-          { topicName: "Residential Status and Scope of Total Income", subTopics: [sub("Residential Status and Scope of Total Income", false, "14th May, 2026")] },
-          { topicName: "Heads of Income – Salary and Income from House Property", subTopics: [sub("Heads of Income – Salary and Income from House Property", false, "14th May, 2026")] },
-          { topicName: "Profits and Gains from Business or Profession", subTopics: [sub("Profits and Gains from Business or Profession", false, "14th May, 2026")] },
-          { topicName: "Capital Gains – Short Term and Long Term", subTopics: [sub("Capital Gains – Short Term and Long Term", false, "14th May, 2026")] },
-          { topicName: "Income from Other Sources and Clubbing of Income", subTopics: [sub("Income from Other Sources and Clubbing of Income", false, "14th May, 2026")] },
-          { topicName: "Deductions under Chapter VI-A and Tax Exemptions", subTopics: [sub("Deductions under Chapter VI-A and Tax Exemptions", false, "14th May, 2026")] },
-          { topicName: "Goods and Services Tax (GST) – Overview, CGST, SGST, IGST", subTopics: [sub("Goods and Services Tax (GST) – Overview, CGST, SGST, IGST", false, "14th May, 2026")] },
-          { topicName: "Customs Law – Basic Principles and Valuation", subTopics: [sub("Customs Law – Basic Principles and Valuation", false, "14th May, 2026")] },
-        ],
-      },
+      // {
+      //   id: "lb604",
+      //   courseName: "Principles of Taxation Law (LB-604)",
+      //   instructor: "Rohit Verma",
+      //   price: "299",
+      //   lastUpdated: "14th May, 2026",
+      //   language: "English with conversational Hindi",
+      //   accessibleTill: "30th September, 2026",
+      //   img: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=400&h=250&fit=crop",
+      //   authorBio:
+      //     "We provide top quality semester preparation content specially designed for law students. This course makes taxation law accessible with no prior accounting knowledge required and solved PYQs.",
+      //   contents: [
+      //     { topicName: "Constitutional Framework of Taxation in India [Free Preview]", subTopics: [sub("Constitutional Framework of Taxation in India", true, "14th May, 2026")] },
+      //     { topicName: "Income Tax Act, 1961 – Basic Concepts, Person, Assessee, Income", subTopics: [sub("Income Tax Act, 1961 – Basic Concepts, Person, Assessee, Income", false, "14th May, 2026")] },
+      //     { topicName: "Residential Status and Scope of Total Income", subTopics: [sub("Residential Status and Scope of Total Income", false, "14th May, 2026")] },
+      //     { topicName: "Heads of Income – Salary and Income from House Property", subTopics: [sub("Heads of Income – Salary and Income from House Property", false, "14th May, 2026")] },
+      //     { topicName: "Profits and Gains from Business or Profession", subTopics: [sub("Profits and Gains from Business or Profession", false, "14th May, 2026")] },
+      //     { topicName: "Capital Gains – Short Term and Long Term", subTopics: [sub("Capital Gains – Short Term and Long Term", false, "14th May, 2026")] },
+      //     { topicName: "Income from Other Sources and Clubbing of Income", subTopics: [sub("Income from Other Sources and Clubbing of Income", false, "14th May, 2026")] },
+      //     { topicName: "Deductions under Chapter VI-A and Tax Exemptions", subTopics: [sub("Deductions under Chapter VI-A and Tax Exemptions", false, "14th May, 2026")] },
+      //     { topicName: "Goods and Services Tax (GST) – Overview, CGST, SGST, IGST", subTopics: [sub("Goods and Services Tax (GST) – Overview, CGST, SGST, IGST", false, "14th May, 2026")] },
+      //     { topicName: "Customs Law – Basic Principles and Valuation", subTopics: [sub("Customs Law – Basic Principles and Valuation", false, "14th May, 2026")] },
+      //   ],
+      // },
 
       /* LB-6032 ─ Insurance and Banking */
       {
@@ -927,7 +967,8 @@ const courses = [
           { topicName: "SARFAESI Act, 2002 and Insolvency and Bankruptcy Code, 2016", subTopics: [sub("SARFAESI Act, 2002 and Insolvency and Bankruptcy Code, 2016", false, "14th May, 2026")] },
         ],
       },
-      
+
+         
     ],
   },
 ];
