@@ -42,7 +42,7 @@ const courses = [
         id: "lb201",
         courseName: "Law of Evidence (LB-201)",
         instructor: "Rupali Gupta",
-        price: "299",
+        price: "199",
         lastUpdated: "14th May 2026",
         language: "English with conversational Hindi",
         accessibleTill: "30th September 2026",
@@ -52,48 +52,48 @@ const courses = [
         contents: [
           {
             topicName: "GENERAL ISSUES RELATING TO LAW OF EVIDENCE",
-            subTopics: [sub("GENERAL ISSUES RELATING TO LAW OF EVIDENCE", false, "14th May, 2026","https://drive.google.com/file/d/1ykyc5aZy61iucj8WDI6czcEAxJevJLEQ/view?usp=drive_link")],
+            subTopics: [sub("GENERAL ISSUES RELATING TO LAW OF EVIDENCE", false, "14th May 2026","https://drive.google.com/file/d/1ykyc5aZy61iucj8WDI6czcEAxJevJLEQ/view?usp=drive_link")],
             
           },
           {
             topicName: "Relevancy Of Facts",
-            subTopics: [sub("Relevant Facts, Difference b/w Facts in Issue and Relevant Facts, Types of Evidence, Facts - Proved,Disproved and Not Proved (Free)", true, "14th May, 2026","https://drive.google.com/file/d/1paEikvaje5nX7bP_mHL9jUepsplYmYhF/view?usp=drive_link")],
+            subTopics: [sub("Relevant Facts, Difference b/w Facts in Issue and Relevant Facts, Types of Evidence, Facts - Proved,Disproved and Not Proved (Free)", true, "14th May 2026","https://drive.google.com/file/d/1paEikvaje5nX7bP_mHL9jUepsplYmYhF/view?usp=drive_link")],
           },
           {
             topicName: "Admission and Confession_Dying Declaration",
-            subTopics: [sub("Admission and Confession_Dying Declaration", false,"14th May, 2026","https://drive.google.com/file/d/1B2_GTXGclIgpQk-LLE55KIfHxl4EWITE/view?usp=drive_link")],
+            subTopics: [sub("Admission and Confession_Dying Declaration", false,"14th May 2026","https://drive.google.com/file/d/1B2_GTXGclIgpQk-LLE55KIfHxl4EWITE/view?usp=drive_link")],
           },
           {
             topicName: "Opinion of third person when valid",
-            subTopics: [sub("Opinion of third person when valid", false, "14th May, 2026","https://drive.google.com/file/d/1Pex20gp1m1Hk2xqmhpFOpFgj0JzPcpZJ/view?usp=drive_link")],
+            subTopics: [sub("Opinion of third person when valid", false, "14th May 2026","https://drive.google.com/file/d/1Pex20gp1m1Hk2xqmhpFOpFgj0JzPcpZJ/view?usp=drive_link")],
           },
           {
             topicName: "Facts neeed not to be Proved",
-            subTopics: [sub("Facts neeed not to be Proved", false, "14th May, 2026","https://drive.google.com/file/d/1uxNp-9IqtgbKDs-ddn-09iCyPHEfCOeg/view?usp=drive_link")],
+            subTopics: [sub("Facts neeed not to be Proved", false, "14th May 2026","https://drive.google.com/file/d/1uxNp-9IqtgbKDs-ddn-09iCyPHEfCOeg/view?usp=drive_link")],
           },
           {
             topicName: "Oral evidence",
-            subTopics: [sub("Oral evidence", false, "14th May, 2026","https://drive.google.com/file/d/11uwKyR81-AHO3PXNFTMWtrzLz_IwxwHb/view?usp=drive_link")],
+            subTopics: [sub("Oral evidence", false, "14th May 2026","https://drive.google.com/file/d/11uwKyR81-AHO3PXNFTMWtrzLz_IwxwHb/view?usp=drive_link")],
           },
           {
             topicName: "Estoppel",
-            subTopics: [sub("Estoppel", false, "14th May, 2026","https://drive.google.com/file/d/11Z4GCGLvXh_DyNaKz5xz8SBHeiL083kx/view?usp=drive_link")],
+            subTopics: [sub("Estoppel", false, "14th May 2026","https://drive.google.com/file/d/11Z4GCGLvXh_DyNaKz5xz8SBHeiL083kx/view?usp=drive_link")],
           },
           {
             topicName: "Burden of Proof",
-            subTopics: [sub("Burden of Proof", false, "14th May, 2026","https://drive.google.com/file/d/1b9I0YKY00kRkQhEm_v3pnc_UZPkojatb/view?usp=drive_link")],
+            subTopics: [sub("Burden of Proof", false, "14th May 2026","https://drive.google.com/file/d/1b9I0YKY00kRkQhEm_v3pnc_UZPkojatb/view?usp=drive_link")],
           },
           {
             topicName: "Presumptions",
-            subTopics: [sub("Presumptions", false, "14th May, 2026","https://drive.google.com/file/d/14HvXyZQBOcKeza9rB5unYqyIfktmMNF9/view?usp=drive_link")],
+            subTopics: [sub("Presumptions", false, "14th May 2026","https://drive.google.com/file/d/14HvXyZQBOcKeza9rB5unYqyIfktmMNF9/view?usp=drive_link")],
           },
           {
             topicName: "Witnesses",
-            subTopics: [sub("Witnesses", false, "14th May, 2026","https://drive.google.com/file/d/1YiN7K_Qth5_fqjT0aFJEpL73-_t8Q_ID/view?usp=drive_link")],
+            subTopics: [sub("Witnesses", false, "14th May 2026","https://drive.google.com/file/d/1YiN7K_Qth5_fqjT0aFJEpL73-_t8Q_ID/view?usp=drive_link")],
           },
           {
             topicName: "Accomplice",
-            subTopics: [sub("Accomplice", false, "14th May, 2026","https://drive.google.com/file/d/1dVjr0o1I8RJ89HE3nCfx1aPwp7O_bbJz/view?usp=drive_link")],
+            subTopics: [sub("Accomplice", false, "14th May 2026","https://drive.google.com/file/d/1dVjr0o1I8RJ89HE3nCfx1aPwp7O_bbJz/view?usp=drive_link")],
           },
         ],
       },
@@ -130,24 +130,24 @@ const courses = [
         id: "lb203",
         courseName: "Law of Crimes - II (LB-203)",
         instructor: "Ada Wallace",
-        price: "299",
-        lastUpdated: "14th May, 2026",
+        price: "199",
+        lastUpdated: "14th May 2026",
         language: "English with conversational Hindi",
-        accessibleTill: "30th September, 2026",
+        accessibleTill: "30th September 2026",
         img: "https://images.unsplash.com/photo-1453945619913-79ec89a82c51?w=400&h=250&fit=crop",
         authorBio:
           "We provide top quality semester preparation content specially designed for law students. This course covers IPC offences with concise notes, case summaries, video lectures, and solved PYQs.",
         contents: [
-          { topicName: "Offences Against the State (Chapter VI, IPC) [Free Preview]", subTopics: [sub("Offences Against the State (Chapter VI, IPC)", true, "14th May, 2026")] },
-          { topicName: "Offences Against Public Tranquility – Unlawful Assembly, Rioting", subTopics: [sub("Offences Against Public Tranquility – Unlawful Assembly, Rioting", false, "14th May, 2026")] },
-          { topicName: "Offences by or Relating to Public Servants", subTopics: [sub("Offences by or Relating to Public Servants", false, "14th May, 2026")] },
-          { topicName: "Hurt, Grievous Hurt, Wrongful Restraint and Confinement", subTopics: [sub("Hurt, Grievous Hurt, Wrongful Restraint and Confinement", false, "14th May, 2026")] },
-          { topicName: "Assault, Criminal Force, Kidnapping and Abduction", subTopics: [sub("Assault, Criminal Force, Kidnapping and Abduction", false, "14th May, 2026")] },
-          { topicName: "Rape and Sexual Offences – Sections 375–376 IPC", subTopics: [sub("Rape and Sexual Offences – Sections 375–376 IPC", false, "14th May, 2026")] },
-          { topicName: "Theft, Extortion, Robbery and Dacoity", subTopics: [sub("Theft, Extortion, Robbery and Dacoity", false, "14th May, 2026")] },
-          { topicName: "Criminal Misappropriation, Criminal Breach of Trust and Cheating", subTopics: [sub("Criminal Misappropriation, Criminal Breach of Trust and Cheating", false, "14th May, 2026")] },
-          { topicName: "Mischief and Criminal Trespass", subTopics: [sub("Mischief and Criminal Trespass", false, "14th May, 2026")] },
-          { topicName: "Offences Relating to Documents and Property Marks", subTopics: [sub("Offences Relating to Documents and Property Marks", false, "14th May, 2026")] },
+          { topicName: "Offences Against the State (Chapter VI, IPC) [Free Preview]", subTopics: [sub("Offences Against the State (Chapter VI, IPC)", true, "14th May 2026")] },
+          { topicName: "Offences Against Public Tranquility – Unlawful Assembly, Rioting", subTopics: [sub("Offences Against Public Tranquility – Unlawful Assembly, Rioting", false, "14th May 2026")] },
+          { topicName: "Offences by or Relating to Public Servants", subTopics: [sub("Offences by or Relating to Public Servants", false, "14th May 2026")] },
+          { topicName: "Hurt, Grievous Hurt, Wrongful Restraint and Confinement", subTopics: [sub("Hurt, Grievous Hurt, Wrongful Restraint and Confinement", false, "14th May 2026")] },
+          { topicName: "Assault, Criminal Force, Kidnapping and Abduction", subTopics: [sub("Assault, Criminal Force, Kidnapping and Abduction", false, "14th May 2026")] },
+          { topicName: "Rape and Sexual Offences – Sections 375–376 IPC", subTopics: [sub("Rape and Sexual Offences – Sections 375–376 IPC", false, "14th May 2026")] },
+          { topicName: "Theft, Extortion, Robbery and Dacoity", subTopics: [sub("Theft, Extortion, Robbery and Dacoity", false, "14th May 2026")] },
+          { topicName: "Criminal Misappropriation, Criminal Breach of Trust and Cheating", subTopics: [sub("Criminal Misappropriation, Criminal Breach of Trust and Cheating", false, "14th May 2026")] },
+          { topicName: "Mischief and Criminal Trespass", subTopics: [sub("Mischief and Criminal Trespass", false, "14th May 2026")] },
+          { topicName: "Offences Relating to Documents and Property Marks", subTopics: [sub("Offences Relating to Documents and Property Marks", false, "14th May 2026")] },
         ],
       },
 
@@ -182,24 +182,24 @@ const courses = [
         id: "lb205",
         courseName: "Public International Law (LB-205)",
         instructor: "Radhika Menon",
-        price: "299",
+        price: "199",
         lastUpdated: "14th May 2026",
         language: "English with conversational Hindi",
-        accessibleTill: "30th September, 2026",
+        accessibleTill: "30th September 2026",
         img: "https://images.unsplash.com/photo-1526470498-9ae73c665de8?w=400&h=250&fit=crop",
         authorBio:
           "We provide top quality semester preparation content specially designed for law students. This course covers international law with a focus on DU LLB exam patterns and current developments.",
         contents: [
-          { topicName: "Nature, Scope and Development of International Law [Free Preview]", subTopics: [sub("Nature, Scope and Development of International Law", true, "14th May, 2026")] },
-          { topicName: "Sources of International Law – Treaties, Custom, General Principles", subTopics: [sub("Sources of International Law – Treaties, Custom, General Principles", false, "14th May, 2026")] },
-          { topicName: "Relationship between International Law and Municipal Law", subTopics: [sub("Relationship between International Law and Municipal Law", false, "14th May, 2026")] },
-          { topicName: "State Recognition – De Facto, De Jure and Consequences", subTopics: [sub("State Recognition – De Facto, De Jure and Consequences", false, "14th May, 2026")] },
-          { topicName: "State Succession and Its Effects on Treaties", subTopics: [sub("State Succession and Its Effects on Treaties", false, "14th May, 2026")] },
-          { topicName: "Territory – Acquisition and Loss, Law of the Sea", subTopics: [sub("Territory – Acquisition and Loss, Law of the Sea", false, "14th May, 2026")] },
-          { topicName: "International Human Rights Law – UDHR, ICCPR, ICESCR", subTopics: [sub("International Human Rights Law – UDHR, ICCPR, ICESCR", false, "14th May, 2026")] },
-          { topicName: "United Nations – Structure, Organs and Peacekeeping", subTopics: [sub("United Nations – Structure, Organs and Peacekeeping", false, "14th May, 2026")] },
-          { topicName: "Law of Treaties – Vienna Convention on the Law of Treaties, 1969", subTopics: [sub("Law of Treaties – Vienna Convention on the Law of Treaties, 1969", false, "14th May, 2026")] },
-          { topicName: "State Responsibility – ILC Articles and Reparations", subTopics: [sub("State Responsibility – ILC Articles and Reparations", false, "14th May, 2026")] },
+          { topicName: "Nature, Scope and Development of International Law [Free Preview]", subTopics: [sub("Nature, Scope and Development of International Law", true, "14th May 2026")] },
+          { topicName: "Sources of International Law – Treaties, Custom, General Principles", subTopics: [sub("Sources of International Law – Treaties, Custom, General Principles", false, "14th May 2026")] },
+          { topicName: "Relationship between International Law and Municipal Law", subTopics: [sub("Relationship between International Law and Municipal Law", false, "14th May 2026")] },
+          { topicName: "State Recognition – De Facto, De Jure and Consequences", subTopics: [sub("State Recognition – De Facto, De Jure and Consequences", false, "14th May 2026")] },
+          { topicName: "State Succession and Its Effects on Treaties", subTopics: [sub("State Succession and Its Effects on Treaties", false, "14th May 2026")] },
+          { topicName: "Territory – Acquisition and Loss, Law of the Sea", subTopics: [sub("Territory – Acquisition and Loss, Law of the Sea", false, "14th May 2026")] },
+          { topicName: "International Human Rights Law – UDHR, ICCPR, ICESCR", subTopics: [sub("International Human Rights Law – UDHR, ICCPR, ICESCR", false, "14th May 2026")] },
+          { topicName: "United Nations – Structure, Organs and Peacekeeping", subTopics: [sub("United Nations – Structure, Organs and Peacekeeping", false, "14th May 2026")] },
+          { topicName: "Law of Treaties – Vienna Convention on the Law of Treaties, 1969", subTopics: [sub("Law of Treaties – Vienna Convention on the Law of Treaties, 1969", false, "14th May 2026")] },
+          { topicName: "State Responsibility – ILC Articles and Reparations", subTopics: [sub("State Responsibility – ILC Articles and Reparations", false, "14th May 2026")] },
         ],
       },
     ],
@@ -216,185 +216,28 @@ const courses = [
       {
         id: "lb401",
         courseName: "Constitutional Law - II (LB-401)",
-        instructor: "Deepak Yadav and Ankur Panwar",
-        price: "299",
+        instructor: "Vikram Nair",
+        price: "199",
         lastUpdated: "14th May 2026",
         language: "English with conversational Hindi",
-        accessibleTill: "30th September, 2026",
+        accessibleTill: "30th September 2026",
         img: "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=400&h=250&fit=crop",
         authorBio:
           "Deepak Yadav and Ankur Panwar are dedicated legal educators and professionals committed to simplifying legal concepts through a practical, conceptual, and student-focused approach. With strong academic backgrounds and hands-on legal experience in research, litigation, and legal drafting, they aim to help students build clarity in core subjects while preparing effectively for examinations and professional legal practice.",
 
         contents: [
-
-          {
-            topicName: "‘State’ under Article 12 [Free Preview]",
-            subTopics: [
-              sub(
-                "‘State’ under Article 12",
-                true,
-                "14th May, 2026",
-                "https://drive.google.com/file/d/1E3rtZ6DGPqSpuchRJiOaB4FteNXlWC9z/view?usp=drive_link",
-                "https://docs.google.com/presentation/d/111CzT141Vg-HI2oVw8UnPFomASD-RLlm/edit?usp=drive_link&ouid=117782488399059902207&rtpof=true&sd=true"
-              )
-            ]
-          },
-
-          {
-            topicName: "‘Law’ under Article 13",
-            subTopics: [
-              {
-                name: "‘Law’ under Article 13",
-                isFree: false,
-                lastUpdated: "14th May, 2026",
-
-                videoLinks: [
-                  {
-                    label: "Part 1",
-                    url: "https://drive.google.com/file/d/1vFuaVJFvofRWcgeNbq5ivWXQJumzXsSU/view?usp=drive_link"
-                  },
-
-                  {
-                    label: "Part 2",
-                    url: "https://drive.google.com/file/d/1ShDVE3-7tHg5ThOZzpewr6Q6iHkApajG/view?usp=drive_link"
-                  }
-                ],
-
-                textLink:
-                  "https://docs.google.com/presentation/d/1Nsckvvm9t35mi1pr4T0MKXnTShyVaYZR/edit?usp=drive_link&ouid=117782488399059902207&rtpof=true&sd=true"
-              }
-            ]
-          },
-
-          {
-            topicName: "Article 14",
-            subTopics: [
-              sub(
-                "Article 14",
-                false,
-                "14th May, 2026",
-                "https://drive.google.com/file/d/11e9Pk5MLEM-nYKnTytL7qatghMrmDUMN/view?usp=drive_link",
-                null
-              )
-            ]
-          },
-
-          {
-            topicName: "Article 15 ",
-            subTopics: [
-              sub(
-                "Article 15 ",
-                false,
-                "14th May, 2026",
-                "https://drive.google.com/file/d/1FMhC7xKsgCIvH0rAkmgMji-VHJzaaLwX/view?usp=drive_link",
-                null
-              )
-            ]
-          },
-
-          {
-            topicName: "Article 16",
-            subTopics: [
-              sub(
-                "Article 16",
-                false,
-                "14th May, 2026",
-                "https://drive.google.com/file/d/1ltEfopIiEbCZTkLEH0M67IEL5llfkhnu/view?usp=drive_link",
-                "https://docs.google.com/presentation/d/1A83N2EqR9-VDjd64No3YPO9tEBjTDbpb/edit?usp=drive_link&ouid=117782488399059902207&rtpof=true&sd=true"
-              )
-            ]
-          },
-
-          {
-            topicName: "Article 17th and 18th",
-            subTopics: [
-              sub(
-                "Article 17th and 18th ",
-                false,
-                "14th May, 2026",
-                "https://drive.google.com/file/d/1MS5uwC3a4Lnh3-kpbQdjMbrhd_T6GqWp/view?usp=drive_link",
-                "https://docs.google.com/presentation/d/1BNdAaUfqxc6UXfwe_rLNdb9Vi5Co92qp/edit?usp=drive_link&ouid=117782488399059902207&rtpof=true&sd=true"
-              )
-            ]
-          },
-
-          {
-            topicName: "Right to freedom of Religion",
-            subTopics: [
-              sub(
-                "Right to freedom of Religion",
-                false,
-                "14th May, 2026",
-                "https://drive.google.com/file/d/1nBOpi16m0QEjP2ks4aKQ-XhqK0XLOROK/view?usp=drive_link",
-                null
-              )
-            ]
-          },
-
-          {
-            topicName: "Educational and Cultural Rights ",
-            subTopics: [
-              {
-                name: "Educational and Cultural Rights",
-                isFree: false,
-                lastUpdated: "14th May, 2026",
-
-                videoLinks: [
-                  {
-                    label: "Part 1",
-                    url: "https://drive.google.com/file/d/18gVW3uzMAgf7k5E2MjeY7kPnUiomz7nB/view?usp=drive_link"
-                  },
-
-                  {
-                    label: "Part 2",
-                    url: "https://drive.google.com/file/d/1kJR-ZgEN2SI1keD30Ah57xA2Ph5_JrZ8/view?usp=drive_link"
-                  }
-                ],
-
-                textLink: null
-              }
-            ]
-          },
-          {
-            topicName: "PYQs Solved Part – 1",
-            subTopics: [
-              sub(
-                "PYQs Solved Part – 1",
-                false,
-                "14th May, 2026",
-                "https://drive.google.com/file/d/1KvdBafj2FMh3Mf2s4l_pZ-81hDGNRCEh/view?usp=drive_link",
-                null
-              )
-            ]
-          },
-
-          {
-            topicName: "PYQs Solved Part -2 ",
-            subTopics: [
-              sub(
-                "PYQs Solved Part -2 ",
-                false,
-                "14th May, 2026",
-                "https://drive.google.com/file/d/1KvdBafj2FMh3Mf2s4l_pZ-81hDGNRCEh/view?usp=drive_link",
-                null
-              )
-            ]
-          },
-
-          {
-            topicName: "PYQs Solved Part -3",
-            subTopics: [
-              sub(
-                "PYQs Solved Part -3",
-                false,
-                "14th May, 2026",
-                "https://drive.google.com/file/d/1SAqEbkqBujZKjUyeQZsb9O9nHIcrAeG9/view?usp=drive_link",
-                null
-              )
-            ]
-          }
-
-        ]
+          { topicName: "Right to Equality – Articles 14, 15, 16, 17 and 18 [Free Preview]", subTopics: [sub("Right to Equality – Articles 14, 15, 16, 17 and 18", true, "14th May 2026")] },
+          { topicName: "Right to Freedom – Articles 19-22 and Reasonable Restrictions", subTopics: [sub("Right to Freedom – Articles 19-22 and Reasonable Restrictions", false, "14th May 2026")] },
+          { topicName: "Right Against Exploitation (Articles 23-24)", subTopics: [sub("Right Against Exploitation (Articles 23-24)", false, "14th May 2026")] },
+          { topicName: "Right to Freedom of Religion (Articles 25-28)", subTopics: [sub("Right to Freedom of Religion (Articles 25-28)", false, "14th May 2026")] },
+          { topicName: "Cultural and Educational Rights (Articles 29-30)", subTopics: [sub("Cultural and Educational Rights (Articles 29-30)", false, "14th May 2026")] },
+          { topicName: "Right to Constitutional Remedies (Article 32) and Writs", subTopics: [sub("Right to Constitutional Remedies (Article 32) and Writs", false, "14th May 2026")] },
+          { topicName: "Directive Principles of State Policy – Nature and Justiciability", subTopics: [sub("Directive Principles of State Policy – Nature and Justiciability", false, "14th May 2026")] },
+          { topicName: "Fundamental Duties (Article 51A)", subTopics: [sub("Fundamental Duties (Article 51A)", false, "14th May 2026")] },
+          { topicName: "Amendment of the Constitution – Procedure and Limitations", subTopics: [sub("Amendment of the Constitution – Procedure and Limitations", false, "14th May 2026")] },
+          { topicName: "Emergency Provisions – Articles 352, 356 and 360", subTopics: [sub("Emergency Provisions – Articles 352, 356 and 360", false, "14th May 2026")] },
+          { topicName: "Judicial Review and the Basic Structure Doctrine", subTopics: [sub("Judicial Review and the Basic Structure Doctrine", false, "14th May 2026")] },
+        ],
       },
 
       /* LB-402 ─ Administrative Law */
@@ -496,7 +339,7 @@ const courses = [
       //   id: "lb4031",
       //   courseName: "Gender Justice & Feminist Jurisprudence (LB-4031)",
       //   instructor: "Neha Srivastava",
-      //   price: "299",
+      //   price: "200",
       //   lastUpdated: "11th July 2024",
       //   language: "English with conversational Hindi",
       //   accessibleTill: "30th September, 2026",
@@ -580,6 +423,7 @@ const courses = [
         id: "lb601",
         courseName: "Advocacy Professional Ethics and Accountancy of Lawyers (LB-601)",
         instructor: "Garima Garg",
+        
         price: "199",
         lastUpdated: "14th May, 2026",
         language: "English with conversational Hindi",
@@ -879,6 +723,7 @@ const courses = [
         img: "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=400&h=250&fit=crop",
         authorBio:
           "She is a legal professional with an LL.M. in Business Law from National Law University, Delhi, and a B.A. LL.B. from GGSIPU, New Delhi. With experience across litigation, arbitration, corporate law, and policy research, she specializes in legal writing, data protection, compliance, and legal technology, supported by multiple certifications and published research.",
+          "She is a legal professional with an LL.M. in Business Law from National Law University, Delhi, and a B.A. LL.B. from GGSIPU, New Delhi. With experience across litigation, arbitration, corporate law, and policy research, she specializes in legal writing, data protection, compliance, and legal technology, supported by multiple certifications and published research.",
         contents: [
           { topicName: "PYQ lecture 1 (free)", subTopics: [sub("PYQ lecture 1", true, "18th May, 2026", "https://drive.google.com/file/d/1BaMzRnkDc8LzlzajT7iOl_vehJf49N-i/view?usp=drive_link")] },
           { topicName: "PYQ lecture 2", subTopics: [sub("PYQ lecture 2", false, "18th May, 2026", "https://drive.google.com/file/d/1ymetPI5IyTzGqwJ4Wmb2tXX20fIdxalF/view?usp=drive_link")] },
@@ -899,21 +744,22 @@ const courses = [
         price: "299",
         lastUpdated: "14th May, 2026",
         language: "English with conversational Hindi",
-        accessibleTill: "30th September, 2026",
+        accessibleTill: "30th September 2026",
+        
         img: "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=400&h=250&fit=crop",
         authorBio:
           "We provide top quality semester preparation content specially designed for law students. This course covers Indian and international environmental law with PIL case studies and solved PYQs.",
         contents: [
-          { topicName: "Development of Environmental Law in India [Free Preview]", subTopics: [sub("Development of Environmental Law in India", true, "14th May, 2026")] },
-          { topicName: "Constitutional Provisions – Articles 48A, 51A(g) and Article 21", subTopics: [sub("Constitutional Provisions – Articles 48A, 51A(g) and Article 21", false, "14th May, 2026")] },
-          { topicName: "Environment Protection Act, 1986", subTopics: [sub("Environment Protection Act, 1986", false, "14th May, 2026")] },
-          { topicName: "Water (Prevention and Control of Pollution) Act, 1974", subTopics: [sub("Water (Prevention and Control of Pollution) Act, 1974", false, "14th May, 2026")] },
-          { topicName: "Air (Prevention and Control of Pollution) Act, 1981", subTopics: [sub("Air (Prevention and Control of Pollution) Act, 1981", false, "14th May, 2026")] },
-          { topicName: "Forest Conservation Act, 1980 and Forest Rights Act, 2006", subTopics: [sub("Forest Conservation Act, 1980 and Forest Rights Act, 2006", false, "14th May, 2026")] },
-          { topicName: "Wildlife Protection Act, 1972 and Biodiversity Act, 2002", subTopics: [sub("Wildlife Protection Act, 1972 and Biodiversity Act, 2002", false, "14th May, 2026")] },
-          { topicName: "International Environmental Law – Stockholm, Rio Declaration, Agenda 21", subTopics: [sub("International Environmental Law – Stockholm, Rio Declaration, Agenda 21", false, "14th May, 2026")] },
-          { topicName: "Climate Change, Kyoto Protocol and Paris Agreement", subTopics: [sub("Climate Change, Kyoto Protocol and Paris Agreement", false, "14th May, 2026")] },
-          { topicName: "National Green Tribunal Act, 2010 and PIL in Environment", subTopics: [sub("National Green Tribunal Act, 2010 and PIL in Environment", false, "14th May, 2026")] },
+          { topicName: "Development of Environmental Law in India [Free Preview]", subTopics: [sub("Development of Environmental Law in India", true, "14th May 2026")] },
+          { topicName: "Constitutional Provisions – Articles 48A, 51A(g) and Article 21", subTopics: [sub("Constitutional Provisions – Articles 48A, 51A(g) and Article 21", false, "14th May 2026")] },
+          { topicName: "Environment Protection Act, 1986", subTopics: [sub("Environment Protection Act, 1986", false, "14th May 2026")] },
+          { topicName: "Water (Prevention and Control of Pollution) Act, 1974", subTopics: [sub("Water (Prevention and Control of Pollution) Act, 1974", false, "14th May 2026")] },
+          { topicName: "Air (Prevention and Control of Pollution) Act, 1981", subTopics: [sub("Air (Prevention and Control of Pollution) Act, 1981", false, "14th May 2026")] },
+          { topicName: "Forest Conservation Act, 1980 and Forest Rights Act, 2006", subTopics: [sub("Forest Conservation Act, 1980 and Forest Rights Act, 2006", false, "14th May 2026")] },
+          { topicName: "Wildlife Protection Act, 1972 and Biodiversity Act, 2002", subTopics: [sub("Wildlife Protection Act, 1972 and Biodiversity Act, 2002", false, "14th May 2026")] },
+          { topicName: "International Environmental Law – Stockholm, Rio Declaration, Agenda 21", subTopics: [sub("International Environmental Law – Stockholm, Rio Declaration, Agenda 21", false, "14th May 2026")] },
+          { topicName: "Climate Change, Kyoto Protocol and Paris Agreement", subTopics: [sub("Climate Change, Kyoto Protocol and Paris Agreement", false, "14th May 2026")] },
+          { topicName: "National Green Tribunal Act, 2010 and PIL in Environment", subTopics: [sub("National Green Tribunal Act, 2010 and PIL in Environment", false, "14th May 2026")] },
         ],
       },
 
@@ -948,23 +794,23 @@ const courses = [
         id: "lb6032",
         courseName: "Insurance and Banking Law (LB-6032)",
         instructor: "Meera Chandrasekaran",
-        price: "299",
-        lastUpdated: "14th May, 2026",
+        price: "199",
+        lastUpdated: "14th May 2026",
         language: "English with conversational Hindi",
-        accessibleTill: "30th September, 2026",
+        accessibleTill: "30th September 2026",
         img: "https://images.unsplash.com/photo-1601597111158-2fceff292cdc?w=400&h=250&fit=crop",
         authorBio:
           "We provide top quality semester preparation content specially designed for law students. This course covers insurance and banking regulation with practical examples and exam-focused notes.",
         contents: [
-          { topicName: "Insurance – General Principles, Nature and Kinds [Free Preview]", subTopics: [sub("Insurance – General Principles, Nature and Kinds", true, "14th May, 2026")] },
-          { topicName: "IRDAI – Insurance Regulatory and Development Authority", subTopics: [sub("IRDAI – Insurance Regulatory and Development Authority", false, "14th May, 2026")] },
-          { topicName: "Life Insurance – Contract, Nomination, Assignment and Claim", subTopics: [sub("Life Insurance – Contract, Nomination, Assignment and Claim", false, "14th May, 2026")] },
-          { topicName: "General Insurance – Marine, Fire and Motor Insurance", subTopics: [sub("General Insurance – Marine, Fire and Motor Insurance", false, "14th May, 2026")] },
-          { topicName: "Structure of Indian Banking System and Reserve Bank of India", subTopics: [sub("Structure of Indian Banking System and Reserve Bank of India", false, "14th May, 2026")] },
-          { topicName: "Banking Regulation Act, 1949 – Licensing and Supervision", subTopics: [sub("Banking Regulation Act, 1949 – Licensing and Supervision", false, "14th May, 2026")] },
-          { topicName: "Banker-Customer Relationship – Rights and Duties", subTopics: [sub("Banker-Customer Relationship – Rights and Duties", false, "14th May, 2026")] },
-          { topicName: "Negotiable Instruments Act, 1881 – Bills, Cheques and Promissory Notes", subTopics: [sub("Negotiable Instruments Act, 1881 – Bills, Cheques and Promissory Notes", false, "14th May, 2026")] },
-          { topicName: "SARFAESI Act, 2002 and Insolvency and Bankruptcy Code, 2016", subTopics: [sub("SARFAESI Act, 2002 and Insolvency and Bankruptcy Code, 2016", false, "14th May, 2026")] },
+          { topicName: "Insurance – General Principles, Nature and Kinds [Free Preview]", subTopics: [sub("Insurance – General Principles, Nature and Kinds", true, "14th May 2026")] },
+          { topicName: "IRDAI – Insurance Regulatory and Development Authority", subTopics: [sub("IRDAI – Insurance Regulatory and Development Authority", false, "14th May 2026")] },
+          { topicName: "Life Insurance – Contract, Nomination, Assignment and Claim", subTopics: [sub("Life Insurance – Contract, Nomination, Assignment and Claim", false, "14th May 2026")] },
+          { topicName: "General Insurance – Marine, Fire and Motor Insurance", subTopics: [sub("General Insurance – Marine, Fire and Motor Insurance", false, "14th May 2026")] },
+          { topicName: "Structure of Indian Banking System and Reserve Bank of India", subTopics: [sub("Structure of Indian Banking System and Reserve Bank of India", false, "14th May 2026")] },
+          { topicName: "Banking Regulation Act, 1949 – Licensing and Supervision", subTopics: [sub("Banking Regulation Act, 1949 – Licensing and Supervision", false, "14th May 2026")] },
+          { topicName: "Banker-Customer Relationship – Rights and Duties", subTopics: [sub("Banker-Customer Relationship – Rights and Duties", false, "14th May 2026")] },
+          { topicName: "Negotiable Instruments Act, 1881 – Bills, Cheques and Promissory Notes", subTopics: [sub("Negotiable Instruments Act, 1881 – Bills, Cheques and Promissory Notes", false, "14th May 2026")] },
+          { topicName: "SARFAESI Act, 2002 and Insolvency and Bankruptcy Code, 2016", subTopics: [sub("SARFAESI Act, 2002 and Insolvency and Bankruptcy Code, 2016", false, "14th May 2026")] },
         ],
       },
 
