@@ -16,8 +16,51 @@ const PaymentModal = ({ course, onClose }) => {
   const [submitted, setSubmitted] = useState(false);
   const price      = formatPrice(course.price);
   const courseIdUp = course.id.toUpperCase();
+    console.log("Submitting form with data:", course);
+// const handleSubmit = async (e) => {
+//   e.preventDefault();
+//   const formData = new FormData(e.target);
+// console.log("form data...",  console.log(formData.get("email")))
 
-  const handleSubmit = (e) => { e.preventDefault(); setSubmitted(true); };
+//   const data = Object.fromEntries(formData.entries());
+// console.log("Submitting form with data:", data);
+// };
+const handleSubmit = async (e) => {
+  e.preventDefault();
+
+  try {
+    const formData = new FormData();
+
+    formData.append("entry.2045910219", form.email);
+    formData.append("entry.1980892240", courseIdUp);
+    formData.append("entry.119183208", form.mobile);
+    formData.append("entry.1020108503", course.courseName);
+    formData.append("entry.1418791824", form.txnId);
+
+    await fetch(
+      "https://docs.google.com/forms/d/e/1FAIpQLScTo8dR46TwvJrK2Os5H2o2chf53fI7iuEdgXlGthtjF4bp2w/formResponse",
+      {
+        method: "POST",
+        mode: "no-cors",
+        body: formData,
+      }
+    );
+
+    alert("Payment submitted successfully!");
+
+    setSubmitted(true);
+
+    setForm({
+      email: "",
+      mobile: "",
+      txnId: "",
+    });
+
+  } catch (err) {
+    console.log(err);
+    alert("Submission failed");
+  }
+};
 
   return (
     <div className="modal-overlay" onClick={onClose}>
@@ -54,11 +97,11 @@ const PaymentModal = ({ course, onClose }) => {
               </div>
               <div className="modal-divider" />
               <form onSubmit={handleSubmit} className="modal-form">
-                <input type="email"  required placeholder="Email Address"
+                <input type="email" name="email" required placeholder="Email Address"
                   value={form.email}   onChange={(e) => setForm({ ...form, email:  e.target.value })} className="modal-input" />
-                <input type="tel"    required placeholder="Mobile No."
+                <input type="tel"    name="mobile" required placeholder="Mobile No."
                   value={form.mobile}  onChange={(e) => setForm({ ...form, mobile: e.target.value })} className="modal-input" />
-                <input type="text"   required placeholder="Last 5 digits of Transaction ID"
+                <input type="text"   name="txnId" required placeholder="Last 5 digits of Transaction ID"
                   maxLength={5} value={form.txnId} onChange={(e) => setForm({ ...form, txnId: e.target.value })} className="modal-input" />
                 <input type="text" readOnly value={courseIdUp}        className="modal-input modal-input-readonly" />
                 <input type="text" readOnly value={course.courseName} className="modal-input modal-input-readonly" />
@@ -99,8 +142,42 @@ const AccordionRow = ({ topic, isOpen, onToggle }) => {
                   : <em className="acc-badge acc-badge--paid"> (Paid)</em>}
               </p>
               <div className="acc-sub-links">
-                <a href={sub.videoLink || "#"} className="acc-sub-link">🎬 Video Lecture</a>
-                <a href={sub.textLink  || "#"} className="acc-sub-link">📄 Lecture Notes</a>
+                {sub.videoLinks ? (
+                  sub.videoLinks.map((video, idx) => (
+                    <a
+                      key={idx}
+                      href={video.url}
+                      className="acc-sub-link"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      🎬 {video.label}
+                    </a>
+                  ))
+                ) : (
+                  sub.videoLink && (
+                    <a
+                      href={sub.videoLink}
+                      className="acc-sub-link"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      🎬 Video Lecture
+                    </a>
+                  )
+                )}
+
+                {sub.textLink && (
+                  <a
+                    href={sub.textLink}
+                    className="acc-sub-link"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    📄 Lecture Notes
+                  </a>
+                )}
+
               </div>
               <p className="acc-sub-date">Last Updated: {sub.lastUpdated}</p>
             </div>
