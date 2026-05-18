@@ -723,7 +723,7 @@ const courses = [
         img: "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=400&h=250&fit=crop",
         authorBio:
           "She is a legal professional with an LL.M. in Business Law from National Law University, Delhi, and a B.A. LL.B. from GGSIPU, New Delhi. With experience across litigation, arbitration, corporate law, and policy research, she specializes in legal writing, data protection, compliance, and legal technology, supported by multiple certifications and published research.",
-          "She is a legal professional with an LL.M. in Business Law from National Law University, Delhi, and a B.A. LL.B. from GGSIPU, New Delhi. With experience across litigation, arbitration, corporate law, and policy research, she specializes in legal writing, data protection, compliance, and legal technology, supported by multiple certifications and published research.",
+
         contents: [
           { topicName: "PYQ lecture 1 (free)", subTopics: [sub("PYQ lecture 1", true, "18th May, 2026", "https://drive.google.com/file/d/1BaMzRnkDc8LzlzajT7iOl_vehJf49N-i/view?usp=drive_link")] },
           { topicName: "PYQ lecture 2", subTopics: [sub("PYQ lecture 2", false, "18th May, 2026", "https://drive.google.com/file/d/1ymetPI5IyTzGqwJ4Wmb2tXX20fIdxalF/view?usp=drive_link")] },
