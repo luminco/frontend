@@ -228,13 +228,18 @@ body {
 
 /* ─── SECTIONS ─── */
 .section-title {
-  font-family: var(--quattrocento);
+  /* font-family: Quattrocento, serif;
   text-align: center;
   color: var(--green);
   font-size: 2.8rem;
   font-weight: 700;
   padding: 1rem 0 1.5rem;
-  width: 100%;
+  width: 100%; */
+  font-family: Quattrocento, serif;
+  font-size: 5rem;   /* same as Welcome */
+  font-weight: 700;
+  color: var(--green);
+  text-align: center;
 }
 
 .section-text {
