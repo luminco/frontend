@@ -7,7 +7,7 @@ import "../index.css";
 
 const formatPrice = (p) => {
   const n = parseFloat(p);
-  return isNaN(n) ? "299" : Math.round(n).toString();
+  return isNaN(n) ? "199" : Math.round(n).toString();
 };
 
 /* ─── Payment Modal ──────────────────────────────────── */
@@ -148,7 +148,7 @@ const CoursePage = () => {
   const instructor = typeof course.instructor === "string"
     ? course.instructor : course.instructor?.name || "";
   const price       = formatPrice(course.price);
-  const origPrice   = Math.round(parseFloat(course.price || 299) / 0.6);
+  const origPrice   = Math.round(parseFloat(course.price || 199) / 0.6);
   const lastUpdated = course.lastUpdated    || "14th May, 2026";
   const language    = course.language       || "English with conversational Hindi";
   const accessible  = course.accessibleTill || "30th September 2026";
