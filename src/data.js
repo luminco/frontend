@@ -46,7 +46,7 @@ const courses = [
         lastUpdated: "14th May 2026",
         language: "English with conversational Hindi",
         accessibleTill: "30th September 2026",
-        img: "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=400&h=250&fit=crop",
+        img: require("./Assets/Images/law.png"),
         authorBio:
           "As an Assistant Professor of Law, I bring a strong academic foundation combined with practical experience in mentoring, research, and event organization. I hold a Master’s degree in Law from Himachal Pradesh National Law University (HPNLU), Shimla, and a Bachelor’s degree from Amity University. I successfully cleared the UGC-NET exam in my maiden attempt. Over the course of my career, I have mentored over 100 students preparing for the judiciary, and I actively participate in organizing and speaking at seminars, conferences, and workshops. My contributions to the academic community are reflected in several publications in UGC-Care-approved journals and books, focusing primarily on Family Law and Criminal Law. I am committed to empowering the next generation of legal professionals by not only delivering high-quality education but also by providing guidance in their career and academic growth.",
         contents: [
