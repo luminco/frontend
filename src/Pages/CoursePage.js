@@ -201,6 +201,27 @@ const CoursePage = () => {
   const [openSet,   setOpenSet]   = useState(new Set([0]));
 
   useEffect(() => {
+  const handleScroll = () => {
+    const scrollTop = window.scrollY;
+    const docHeight = document.body.scrollHeight - window.innerHeight;
+    const progress = (scrollTop / docHeight) * 100;
+
+    const bar = document.getElementById("scrollProgress");
+    if (bar) {
+      bar.style.width = `${progress}%`;
+    }
+  };
+
+  window.addEventListener("scroll", handleScroll);
+
+  return () => window.removeEventListener("scroll", handleScroll);
+}, []);
+
+  useEffect(() => {
+  window.scrollTo({ top: 0, behavior: "smooth" });
+}, []);
+
+  useEffect(() => {
     const grp   = allCourseData.find((g) => g.id === term);
     const local = grp?.courses.find((c) => c.id === courseId);
     if (local) setCourse(local);
@@ -262,6 +283,9 @@ const CoursePage = () => {
 
   return (
     <>
+    <div className="scroll-progress-bar">
+  <div className="scroll-progress-fill" id="scrollProgress"></div>
+</div>
       <div className="cp-page">
 
         {/* Breadcrumb — full width */}

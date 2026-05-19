@@ -173,11 +173,13 @@ body {
 
 /* ─── HERO / CONTAINER ─── */
 .container {
-  min-height: 100vh;
+ 
+   min-height: 100vh;
   background-color: var(--bg);
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-top: clamp(90px, 12vh, 120px);
 }
 
 .container-content {
@@ -197,7 +199,7 @@ body {
 }
 
 .title {
-  font-size: 5rem;
+  font-size: clamp(2.5rem, 6vw, 5rem);
   font-family: Quattrocento, serif;
   color: var(--green);
   font-weight: 700;
@@ -236,7 +238,7 @@ body {
   padding: 1rem 0 1.5rem;
   width: 100%; */
   font-family: Quattrocento, serif;
-  font-size: 5rem;   /* same as Welcome */
+  font-size: clamp(2.5rem, 6vw, 5rem);   /* same as Welcome */
   font-weight: 700;
   color: var(--green);
   text-align: center;
@@ -429,12 +431,17 @@ body {
   gap: 0;
 }
 
-.course-cards-container {
+/* .course-cards-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 1.25rem;
   width: 100%;
   padding-bottom: 2.5rem;
+} */
+ .course-cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.25rem;
 }
 
 .course-card {
@@ -660,7 +667,7 @@ body {
 footer {
   background-color: var(--white);
   border-top: 1px solid var(--border);
-  padding: 3rem 5rem;
+  padding: 3rem 3rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -2498,4 +2505,55 @@ button:hover {
     border-top: 1px solid var(--border);
   }
   .cp-title { font-size: 2rem; }
+}
+.left-col {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 0; /* ensure no extra shift */
+}
+.header,
+footer {
+  padding-left: clamp(1rem, 4vw, 3rem);
+  padding-right: clamp(1rem, 4vw, 3rem);
+}
+@media (max-width: 768px) {
+  .footer-top {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-nav {
+    align-items: center;
+  }
+
+  .left-col {
+    justify-content: center;
+  }
+}
+@media (max-width: 768px) {
+  .center-section,
+  .course-desp-box {
+    padding: 2rem 1.5rem;
+  }
+}
+/* Scroll Progress Bar */
+.scroll-progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: transparent;
+  z-index: 9999;
+}
+
+.scroll-progress-fill {
+  height: 100%;
+  width: 0%;
+  background: linear-gradient(90deg, #2d6a4f, #52b788);
+  transition: width 0.1s ease-out;
+  box-shadow: 0 0 8px rgba(82, 183, 136, 0.6);
 }
